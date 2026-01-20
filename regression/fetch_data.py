@@ -38,6 +38,7 @@ def fetch_btc_data():
             })
 
         # 保存为 JSON
+        # 时间更近的在文件后面
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2)
             
