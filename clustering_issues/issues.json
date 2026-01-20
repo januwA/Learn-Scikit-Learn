@@ -1,0 +1,1242 @@
+[
+  {
+    "body": "> **Note**: This issue was automatically converted from [Discussion #492](https://github.com/kevinanew/game_portal/discussions/492) originally posted by @zxt841614467-maker.\n\n---\n\n1. <img width=\"666\" height=\"693\" alt=\"image\" src=\"https://github.com/user-attachments/assets/34b22c8e-1629-43ab-bae3-e3bdbb3b3cfd\" />\r\n\r\n2. 推广页面的team页面加了没有数据时的样式，在figma链接https://www.figma.com/design/3uNG4oDQJqEtSkUOLCYN4a/%E6%B8%B8%E6%88%8F?node-id=4930-2548&t=MhhRyIx0P4LnodnO-4\r\n3. 加了插画和提示语，及按钮，点击按钮跳转到邀请页面\r\n\n\n---\nRef: [https://github.com/kevinanew/game_portal/discussions/492](https://github.com/kevinanew/game_portal/discussions/492)",
+    "number": 494,
+    "title": "推广页，团队人员统计加了没有数据时的页面"
+  },
+  {
+    "body": "https://github.com/user-attachments/assets/61e97467-5ba0-49c4-bdcf-9b84a18b80fb\n\n用户进入签到页面，视频就播放一次，不用循环播放",
+    "number": 493,
+    "title": "签到页面的动画视频换一下"
+  },
+  {
+    "body": "[9 后台获取收入流水](https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#9-%E5%90%8E%E5%8F%B0%E8%8E%B7%E5%8F%96%E6%94%B6%E5%85%A5%E6%B5%81%E6%B0%B4)",
+    "number": 491,
+    "title": "对接 - 推广后台代理获取收入流水"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/game_play_history_flask_staging/client.md#4-%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%8E%B7%E5%8F%96%E7%8E%A9%E5%AE%B6%E5%BD%93%E5%B1%80%E6%B8%B8%E6%88%8F%E7%BB%93%E6%9E%9C",
+    "number": 489,
+    "title": "接口对接 - 游戏结束结算接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/483\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** January 14, 2026</sup>\n小圆点在浅色背景下看不到，需要调整下颜色或者直接取消\r\n\r\n<img width=\"459\" height=\"324\" alt=\"截屏2026-01-14 15 51 35\" src=\"https://github.com/user-attachments/assets/ca83b2dc-ec73-4e96-9d7c-65cb3c73ae9f\" />\r\n</div>",
+    "number": 486,
+    "title": "轮播图正下方的白色小圆点需要重新调整一下颜色"
+  },
+  {
+    "body": "",
+    "number": 485,
+    "title": "对接 - 加入代理时候需要增加传入nickname"
+  },
+  {
+    "body": "<img width=\"858\" height=\"1578\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d958569d-2957-4307-8337-b18e75073a6c\" />",
+    "number": 484,
+    "title": "视频被裁剪了"
+  },
+  {
+    "body": "1. 新做的设计图<img width=\"270\" height=\"571\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b2f0b341-7e01-49b4-8adc-4465112f7f9c\" />\r\n\r\n2. figma新增页面的设计图链接https://www.figma.com/design/3uNG4oDQJqEtSkUOLCYN4a/%E6%B8%B8%E6%88%8F?node-id=4930-2548&t=0nWe0e9ZldRN1wSd-4\r\n\r\n3.推广平台，加了推广人数统计，统计一个有多少人加入了我的团队，点击Invite跳转到/invite，\r\n\r\n4.Recently Joined这是一个列表标题，下面的内容是统计最近加入10个人的数据，用户的头像和昵称，及加入进来的时间。新加入1个用户就显示在第一个，第10个用户就隐藏。\r\n\n\n---\nRef: [https://github.com/kevinanew/game_portal/discussions/480](https://github.com/kevinanew/game_portal/discussions/480)",
+    "number": 482,
+    "title": "推广页面新增代理邀请人数统计"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/480\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January 13, 2026</sup>\n1. 新做的设计图<img width=\"270\" height=\"571\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b2f0b341-7e01-49b4-8adc-4465112f7f9c\" />\r\n\r\n2. figma新增页面的设计图链接https://www.figma.com/design/3uNG4oDQJqEtSkUOLCYN4a/%E6%B8%B8%E6%88%8F?node-id=4930-2548&t=0nWe0e9ZldRN1wSd-4\r\n\r\n3.推广平台，加了推广人数统计，统计一个有多少人加入了我的团队，点击Invite跳转到/invite，\r\n\r\n4.Recently Joined这是一个列表标题，下面的内容是统计最近加入10个人的数据，用户的头像和昵称，及加入进来的时间。新加入1个用户就显示在第一个，第10个用户就隐藏。\r\n</div>",
+    "number": 481,
+    "title": "开发 - 代理人数统计/最近加入"
+  },
+  {
+    "body": "> 补充一点，能否将切换动效像下面视频中的一样更加自然、有动感一些。\n> （它是中间的图片向左后缩小移动，然后右边的图片接着向正前方放大移动）仅参考，如果有更好的方案请忽略。\n> \n> https://github.com/user-attachments/assets/714216a4-2701-4bbd-9ef1-47f5a29c5800 \n\n _Originally posted by @AnneAnneAnne in [#473](https://github.com/kevinanew/game_portal/issues/473#issuecomment-3742329325)_",
+    "number": 479,
+    "title": "Banner 效果可以再优化"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/438\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  6, 2026</sup>\n推广页面下载二维码，之前只是显示了一个二维码太简单了，下载的图片样式改了 ，看图2\r\n<img width=\"675\" height=\"704\" alt=\"image\" src=\"https://github.com/user-attachments/assets/f7d4e9ba-e4cb-40e8-9040-7dab86dda361\" />\r\n</div>",
+    "number": 478,
+    "title": "推广页"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/430\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** January  5, 2026</sup>\n<img width=\"1168\" height=\"772\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0570f4dd-c91a-47f7-a302-99b284ace0de\" />\r\n</div>",
+    "number": 477,
+    "title": "游戏平台：加载页面不一样"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/432\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  5, 2026</sup>\n<img width=\"634\" height=\"643\" alt=\"image\" src=\"https://github.com/user-attachments/assets/27b3081e-343c-4954-8e2a-b23ff56cf0a3\" />\r\n</div>",
+    "number": 476,
+    "title": "我的页面更新了样式"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/433\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  5, 2026</sup>\n提示文字不要了  ，   钱包页登录后没有背景图     ，    页面元素改为蓝色\r\n<img width=\"729\" height=\"752\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d0ff4953-4318-4abb-981b-6aff16baf0ef\" />\r\n</div>",
+    "number": 475,
+    "title": "钱包页"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/435\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** January  5, 2026</sup>\n<img width=\"1332\" height=\"1613\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1d99a923-859e-45f2-98f0-e41e135a5ce8\" />\r\n</div>",
+    "number": 474,
+    "title": "游戏平台：密码显示样式不一致；按钮样式不一致"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/447\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** January  8, 2026</sup>\n 轮播图应该按顺序播放完整后再重新播放，不受页面切换的影响\r\n\r\nhttps://github.com/user-attachments/assets/980c1b73-4c90-4157-b614-33c2ff546b13\r\n\r\n</div>",
+    "number": 473,
+    "title": "任何页面回到首页后，首页轮播顺序都回到原来的位置播放同样的图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/449\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** January  8, 2026</sup>\n<img width=\"452\" height=\"753\" alt=\"截屏2026-01-08 15 01 30\" src=\"https://github.com/user-attachments/assets/82decf12-ec83-42df-b406-7542d59d7ed2\" />\r\n</div>",
+    "number": 472,
+    "title": "钱包页面背景还是登录前的背景"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/453\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  8, 2026</sup>\n游戏中，弹窗里面充值成功了，金币没有增加。要等一会或退出游戏才会增加\r\n<img width=\"1835\" height=\"853\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0f1f2c8c-558f-4972-822a-8431d3071243\" />\r\n</div>",
+    "number": 471,
+    "title": "游戏中充值时 金币无法立即更新"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/454\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** January  9, 2026</sup>\n<img width=\"822\" height=\"1280\" alt=\"image\" src=\"https://github.com/user-attachments/assets/31e14223-15ee-4ec2-8a36-be5f9bfc68b2\" />\r\n\r\n需要控制哪些分类能排在前面展示的功能\r\n</div>",
+    "number": 470,
+    "title": "【新需求】首页分类排序"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/455\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  9, 2026</sup>\n<img width=\"563\" height=\"645\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a58c233b-c8e7-4043-87f0-70ef03a82447\" />\r\n</div>",
+    "number": 469,
+    "title": "首页样式修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/456\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  9, 2026</sup>\n<img width=\"619\" height=\"638\" alt=\"image\" src=\"https://github.com/user-attachments/assets/09c354e1-cf7f-4702-8d35-916c0a0ec930\" />\r\n<img width=\"598\" height=\"630\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9f5a0fd4-4f85-4c98-961d-5c39b9f41cc1\" />\r\n</div>",
+    "number": 468,
+    "title": "个人中心未登录页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/457\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  9, 2026</sup>\n<img width=\"589\" height=\"624\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c528d2c3-9e38-40ca-9b7c-2be89be9396a\" />\r\n</div>",
+    "number": 467,
+    "title": "收藏空白页修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/459\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January 10, 2026</sup>\n<img width=\"628\" height=\"677\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0bf1e91a-87d9-4748-916e-486f768c9be9\" />\r\n</div>",
+    "number": 466,
+    "title": "选择支付页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/463\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January 12, 2026</sup>\n<img width=\"649\" height=\"738\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c002c5f4-dac1-42bd-b9a6-9213e0dacc90\" />\r\n已登录用户 ：扫码进入第二个页面，点击加入进入第三个页面。\r\n未登录或未注册用户：扫码进入第1个页面 ，登录后，进入第二个页面。点击加入进入第三个页面。\r\nhttps://www.figma.com/design/3uNG4oDQJqEtSkUOLCYN4a/%E6%B8%B8%E6%88%8F?node-id=4908-1814&t=qGBRPiBnXJLngll1-4\r\n</div>",
+    "number": 465,
+    "title": "推广扫码进入后页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/405\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** December 27, 2025</sup>\n现在这个页面内容与导航距离太近了\r\n\r\n<img width=\"455\" height=\"652\" alt=\"截屏2025-12-27 22 51 50\" src=\"https://github.com/user-attachments/assets/ed770791-c506-4631-adb8-70ec55270e5a\" />\r\n</div>",
+    "number": 464,
+    "title": "收藏页面内容区和导航栏距离与其他页面高度统一"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/461\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January 12, 2026</sup>\nhttps://www.figma.com/design/3uNG4oDQJqEtSkUOLCYN4a/%E6%B8%B8%E6%88%8F?node-id=4906-1345&t=qGBRPiBnXJLngll1-4\r\n<img width=\"423\" height=\"338\" alt=\"image\" src=\"https://github.com/user-attachments/assets/318f0fc9-71bf-41b6-978d-e9f968bb83b9\" />\r\n</div>",
+    "number": 462,
+    "title": "推广二维码下载的图片改成图1 样式"
+  },
+  {
+    "body": "禁用代理 https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#2-%E5%90%8E%E5%8F%B0%E6%89%B9%E9%87%8F%E7%A6%81%E7%94%A8%E4%BB%A3%E7%90%86\n\n启用代理 https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#3-%E5%90%8E%E5%8F%B0%E6%89%B9%E9%87%8F%E5%90%AF%E7%94%A8%E4%BB%A3%E7%90%86",
+    "number": 460,
+    "title": "推广服务接口对接：启用和禁用代理接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/442\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  6, 2026</sup>\n<img width=\"980\" height=\"646\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8740ddb0-a971-4567-bfe5-8661aea82941\" />\r\n\r\n1. 分享移动到收藏旁边了，收藏图标换一下新的\r\n2. 页面向上滑动 ，图标移动到返回边上\r\n3. 标签大小，游戏运营商写全称\r\n4. 按钮高度 ，按钮加了阴影，按钮颜色，金币太小了，加号颜色和客服颜色改为蓝色。</div>",
+    "number": 452,
+    "title": "游戏详情修改"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/public.md#2-%E5%85%AC%E5%BC%80api%E7%94%A8%E6%88%B7%E5%8A%A0%E5%85%A5%E4%BB%A3%E7%90%86\n\n由/v1/affiliate_partner/consumers/<consumer_id>/join\n改为了/public/v1/affiliate_partner/consumers/<consumer_id>/join",
+    "number": 451,
+    "title": "推广服务接口对接：用户加入代理"
+  },
+  {
+    "body": "当出现错误后，引导用户截图，并把错误消息发送给客服",
+    "number": 445,
+    "title": "错误弹窗引导"
+  },
+  {
+    "body": "![Image](https://github.com/user-attachments/assets/6bc49416-3e41-468e-aefa-506199735904)",
+    "number": 443,
+    "title": "payment API 500"
+  },
+  {
+    "body": "Request URL\nhttps://api.staging.gpfordev.com/public/v11/user/register/username_password\nRequest Method\nPOST\nStatus Code\n500 Internal Server Error\nRemote Address\n139.162.95.7:443\nReferrer Policy\nno-referrer-when-downgrade\n\n```json\n{\"username\":\"tuser12312312313132\",\"password\":\"Qwer123$\",\"device_id\":\"web_1761640786402_5hbhmjcf2wj\"}\n```",
+    "number": 441,
+    "title": "密码创建用户500"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#8-%E5%90%8E%E5%8F%B0%E9%87%8D%E7%BD%AE%E4%BB%A3%E7%90%86%E5%AF%86%E7%A0%81",
+    "number": 440,
+    "title": "推广服务接口对接：后台重置密码"
+  },
+  {
+    "body": "Request URL\nhttps://api.staging.gpfordev.com/v1/virtual_payment/order\nRequest Method\nPOST\nStatus Code\n500 Internal Server Error\nRemote Address\n139.162.95.7:443\nReferrer Policy\nno-referrer-when-downgrade\n\n<img width=\"1322\" height=\"567\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/40633962-a43d-4770-9d82-7e7011bdbf87\" />",
+    "number": 437,
+    "title": "order API 500"
+  },
+  {
+    "body": "https://api.staging.gpfordev.com/v11/user/54185e10-0d6a-4172-8ace-315211cce783/account 在成功登录后会立即出现401\n\n<img width=\"602\" height=\"245\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a285dadb-fc90-46c1-9652-9dc245d27634\" />\n在成功登录的情况下，account API 会提示 token 过期\nprofile API 使用的是和 account 一样的 token profile 都成功了，account 却不行\n<img width=\"975\" height=\"383\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2da6609b-2fcf-495d-9559-25ce4f2a53b5\" />\n\n<img width=\"980\" height=\"402\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/06bef1d5-1028-4bdc-868c-377f1ac3b88b\" />\n\n之后我又重新登录一次又可以了，不过从前面的测试失败中多次发现会出现这种情况",
+    "number": 436,
+    "title": "登录的时候 account API 会出现 401 的错误"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/422\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** January  5, 2026</sup>\n1.首充的奖励不匹配，实际充120奖励60\r\n<img width=\"801\" height=\"1947\" alt=\"image\" src=\"https://github.com/user-attachments/assets/88a8f7be-4189-462e-b2f4-8e59acaca87b\" />\r\n\r\n2.二次充还有首充的UI显示\r\n<img width=\"792\" height=\"1529\" alt=\"image\" src=\"https://github.com/user-attachments/assets/357dabb2-7b53-4a93-8bdd-f61f4c55a060\" />\r\n</div>",
+    "number": 429,
+    "title": "游戏平台：首充的奖励不匹配；二次充还有首充的UI显示"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/420\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** January  3, 2026</sup>\n<img width=\"576\" height=\"611\" alt=\"image\" src=\"https://github.com/user-attachments/assets/23e45123-497b-4784-b2cf-7e5efc7c54e6\" />\r\n</div>",
+    "number": 428,
+    "title": "图片没有加载出来，先用占位符"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/426\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** January  5, 2026</sup>\n展开 收起\r\n<img width=\"1171\" height=\"771\" alt=\"image\" src=\"https://github.com/user-attachments/assets/74e0951d-b513-439a-9725-686c22602d3f\" />\r\n加收起状态\r\n<img width=\"792\" height=\"968\" alt=\"image\" src=\"https://github.com/user-attachments/assets/49b0c678-874f-48ef-a518-122dceaad37d\" />\r\n</div>",
+    "number": 427,
+    "title": "游戏平台：下拉状态可以对应一个收起"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/319\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 12, 2025</sup>\n<img width=\"335\" height=\"726\" alt=\"image\" src=\"https://github.com/user-attachments/assets/bcac7f3f-897e-4973-b84b-1b7fe5521d5e\" />\r\n</div>",
+    "number": 425,
+    "title": "游戏结束增加了游戏结算页面"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/409\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 29, 2025</sup>\n页面滑动样式\nhttps://github.com/user-attachments/assets/f9051af1-abd4-4cb2-8eee-0594962471ae\n\n1. 标题的间距  参考右边图片  现在标题离上面的图片太近  \n2. usdt未支付的订单 请按照右图\n3. 标题间距离上面的usdt订单远一点  离下面的选套餐金币近一点   现在在这两个元素的中间 不明显是随的标题\n4. 支付金额下面有一个白色的底色，这个元素在白色底色的中间  现在这个元素在白色底的最上面\n5. tab下面也有白色的底色\n<img width=\"628\" height=\"675\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d54cb71c-159b-43bb-8dc8-4bb34d61ba35\" /></div>",
+    "number": 424,
+    "title": "有usdt未支付订单的样式修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/398\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 27, 2025</sup>\n支付的货币有两种   一种是USDT  一种是$   usdt看图2   $看图3   \r\n<img width=\"835\" height=\"569\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ed5c78d8-3ecb-4a03-92bb-e65db712817b\" />\r\n</div>",
+    "number": 423,
+    "title": "支付成功页面UI样式修改"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#6-%E5%90%8E%E5%8F%B0%E6%9B%B4%E6%96%B0%E4%BB%A3%E7%90%86%E4%BD%A3%E9%87%91%E6%AF%94%E7%8E%87",
+    "number": 421,
+    "title": "接口对接：推广后台更新代理佣金比率"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/user_level_flask_staging/client.md\n新增了 /v1/user_level/user/<user_id>/level 接口，此接口传入user_id与level_rule_name后会直接返回level_rule_name对应的数据，不会有多余的数据被返回\n可用的等级规则会在api文档中写明，目前在game portal中使用bet规则显示玩家等级。",
+    "number": 418,
+    "title": "对接 - 接口修改 - 用户等级信息查询接口"
+  },
+  {
+    "body": "电脑端签到动效顶部有明显黑线，移动端无动效效果显示\n\n<img width=\"793\" height=\"308\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2866c43a-59eb-4bd3-8bb6-dc4552d2fa53\" />\n",
+    "number": 417,
+    "title": "签到动效顶部有明显黑线"
+  },
+  {
+    "body": "https://game-portal-master-admin.pages.dev/kyc/recent 页面按照[原型图](https://github.com/kevinanew/game_portal/issues/415)更改需要给接口添加查询参数  [现在的 admin/kyc/recent 接口](https://github.com/kevinanew/api_doc/blob/831f31371af26d5e1fd0e66662da3069b37b82eb/kyc_flask_staging/admin.md?plain=1#L55)\n\n",
+    "number": 416,
+    "title": "【接口需求】游戏后台KYC Recent需要查询参数"
+  },
+  {
+    "body": "This page displays the most recent Know Your Customer (KYC) verification records for users in the system. KYC is a process used to verify the identity and background of customers to comply with regulatory requirements and prevent fraud. The table below shows the latest KYC submissions, including the submission date, user's full name, current verification status, and available actions. Statuses include: \"Waiting Complete\" (user has started but not finished the verification), \"Pending Approve\" (submitted and awaiting review), \"Approved\" (verification successful), and \"Rejected\" (verification failed). Use the \"View\" button in the Action column to navigate to the detailed KYC Query page for a specific user, where you can review full documentation and make approval decisions. You can use the \"KYC Status\" and \"Submission Date\" filters above the table to refine the list based on status or time range. Click the \"Refresh\" button to update the list with the latest records.\n<img width=\"1280\" height=\"724\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8ce99722-f1ba-4a85-8daa-f6ea74ba68b7\" />",
+    "number": 415,
+    "title": "原型图：游戏后台KYC Recent页面替换"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/413\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 30, 2025</sup>\n1. 游戏详情增加了  余额 \r\n2. 游戏截图竖图大小有问  图片现在太大了\r\n\r\n<img width=\"573\" height=\"704\" alt=\"image\" src=\"https://github.com/user-attachments/assets/1ef27b87-8d78-421f-8596-6f13b35f9224\" />\r\n</div>",
+    "number": 414,
+    "title": "游戏详情页"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/user_level_flask_staging/client.md\n接口返回数据增加了bet。\n\n需要将当前前端等级信息展示使用的App:coin数据替换为bet数据，App:coin与purchase数据暂时不使用\nApp:coin --> bet",
+    "number": 412,
+    "title": "对接 - 接口数据修改 - 用户等级信息查询接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/407\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** December 29, 2025</sup>\n首页的分类标签和消费记录里的分类标签样式和颜色可以统一一下\r\n\r\n<img width=\"454\" height=\"199\" alt=\"截屏2025-12-29 15 34 56\" src=\"https://github.com/user-attachments/assets/a92226c0-f4d1-4a27-bc40-3f4d6817778a\" />\r\n\r\n<img width=\"449\" height=\"244\" alt=\"截屏2025-12-29 15 34 16\" src=\"https://github.com/user-attachments/assets/d0aa81a3-f158-4820-87f6-ce663172b9c4\" />\r\n</div>",
+    "number": 411,
+    "title": "分类标签的样式建议统一一下"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/402\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 27, 2025</sup>\n<img width=\"605\" height=\"624\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2b32ac4a-c8b0-43a5-bc34-0731e47e4629\" />\r\n</div>",
+    "number": 410,
+    "title": "交易记录页面 加载样式统一"
+  },
+  {
+    "body": "页面滑动样式\nhttps://github.com/user-attachments/assets/f9051af1-abd4-4cb2-8eee-0594962471ae\n\n1. 标题的间距  参考右边图片  现在标题离上面的图片太近  \n2. usdt未支付的订单 请按照右图\n3. 标题间距离上面的usdt订单远一点  离下面的选套餐金币近一点   现在在这两个元素的中间 不明显是随的标题\n4. 支付金额下面有一个白色的底色，这个元素在白色底色的中间  现在这个元素在白色底的最上面\n5. tab下面也有白色的底色\n<img width=\"628\" height=\"675\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d54cb71c-159b-43bb-8dc8-4bb34d61ba35\" />",
+    "number": 408,
+    "title": "有usdt未支付订单的样式修改"
+  },
+  {
+    "body": "<img width=\"811\" height=\"397\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/db546c03-c867-405e-a9f4-1857bb178dd5\" />",
+    "number": 399,
+    "title": "图片加载失败"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/client.md#1-%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%8E%B7%E5%8F%96%E4%BB%A3%E7%90%86%E8%BF%91%E4%B8%83%E5%A4%A9%E6%AF%8F%E6%97%A5%E6%94%B6%E5%85%A5",
+    "number": 396,
+    "title": "推广服务接口对接：近七天收入"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/client.md#1-%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%8E%B7%E5%8F%96%E4%BB%A3%E7%90%86%E8%BF%91%E4%B8%83%E5%A4%A9%E6%AF%8F%E6%97%A5%E6%94%B6%E5%85%A5",
+    "number": 395,
+    "title": "推广服务接口对接：近七天收入"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#4-%E7%AE%A1%E7%90%86%E5%91%98%E7%99%BB%E5%BD%95",
+    "number": 394,
+    "title": "对接 - 推广对接管理员登录"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/392\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 25, 2025</sup>\n1. 最近收藏游戏图变大  \r\n2. 每个游戏图标加了阴影\r\n\r\n<img width=\"346\" height=\"723\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5be42d86-896d-4d95-a550-b7a09e953500\" />\r\n</div>",
+    "number": 393,
+    "title": "收藏页面样式修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/388\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 25, 2025</sup>\nhttps://www.figma.com/design/3uNG4oDQJqEtSkUOLCYN4a/%E6%B8%B8%E6%88%8F?node-id=4228-1158&t=WNHI9Gk31Pfk6lcU-4\r\n1.头像下面增加了用户等级\r\n2.等级升级进度条参考右图\r\n<img width=\"715\" height=\"758\" alt=\"image\" src=\"https://github.com/user-attachments/assets/41384131-a0d9-4154-b6ba-37d5c7b3ec2a\" />\r\n\r\n<img width=\"529\" height=\"432\" alt=\"image\" src=\"https://github.com/user-attachments/assets/48dfdf63-bd31-497b-a0a4-ff36ba3af0f9\" />\r\n首页 用户头像增加了用户等级显示 \r\nhttps://www.figma.com/design/3uNG4oDQJqEtSkUOLCYN4a/%E6%B8%B8%E6%88%8F?node-id=2899-3587&t=WNHI9Gk31Pfk6lcU-4\r\n</div>",
+    "number": 390,
+    "title": "我的增加了等级"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/365\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 20, 2025</sup>\n<img width=\"881\" height=\"481\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9efc0400-a906-4b53-9f65-6407ccc39d16\" />\r\n</div>",
+    "number": 389,
+    "title": "首页游戏分类里面的切换按钮  距边距是24像素。现在是贴着2边上的"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/384\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 24, 2025</sup>\n1. 标签距离游戏名称间距太大\r\n2. 游戏分类标签和运营商标签大小 ，现在有点小，运营商名称显示全称。不要简写\r\n3. 收藏图标大小\r\n4. 游戏截图大小，可以左右滑动，左右滑动按钮参考右图\r\n5. 开始游戏按钮宽度 距左右两边各20  ，按钮下面有一个白底\r\n<img width=\"666\" height=\"789\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8c9d17f3-b74a-423a-bfd4-fd0c8d6919a3\" />\r\n\r\n1.收藏提醒 距上面和左右一样\r\n<img width=\"703\" height=\"737\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e28d2cc4-3447-492a-a125-3c1d80476d4c\" />\r\n\r\n游戏截图竖图  大小参考左图\r\n<img width=\"639\" height=\"650\" alt=\"image\" src=\"https://github.com/user-attachments/assets/cd812305-4a3a-4ff3-b1b5-a986f54b7b79\" />\r\n\r\n</div>",
+    "number": 387,
+    "title": "游戏详情页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/385\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 24, 2025</sup>\n游戏中充值的按钮  已改\r\n<img width=\"646\" height=\"676\" alt=\"image\" src=\"https://github.com/user-attachments/assets/38122a57-cce2-4539-ac99-fea606ae9b31\" />\r\n</div>",
+    "number": 386,
+    "title": "游戏中充值"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/user_level_flask_staging/client.md\n\n响应包含多个等级规则的数据，每个规则对应不同的经验值体系：\n1. \"App:coin\" - 主等级规则（下注相关等级）\n   - 用于UI显示用户等级、进度条等\n   \n2. \"purchase\" - 购买相关等级规则（消费行为等级）\n   - 内部使用，用于计算购买相关权益\n   - 目前仅用于后端业务逻辑\n\n前端展示时应始终使用 \"App:coin\" 的数据。\n\"purchase\" 等其它规则数据未来可能扩展",
+    "number": 383,
+    "title": "对接 - 用户等级信息查询接口"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/public.md#0-%E5%85%AC%E5%BC%80api%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95",
+    "number": 382,
+    "title": "推广服务接口对接：用户登录"
+  },
+  {
+    "body": "推广服务接口对接：获取推广链接https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/service.md#5-%E8%8E%B7%E5%8F%96%E6%8E%A8%E5%B9%BF%E9%93%BE%E6%8E%A5",
+    "number": 381,
+    "title": "推广服务接口对接：获取推广链接"
+  },
+  {
+    "body": "已登录的玩家点击加入代理人的组，应该是client接口\n\n<img width=\"726\" height=\"1552\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b2f1f106-f4ad-420b-935c-4b782755e9b6\" />",
+    "number": 380,
+    "title": "【接口需求】加入代理人的组（client）"
+  },
+  {
+    "body": "代理人分享连接给玩家，玩家点击后进入的页面\n页面存在未登陆的情况，所以需要public接口\n<img width=\"730\" height=\"1548\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4beff239-6e8d-4b99-9b55-eb36981614ae\" />",
+    "number": 379,
+    "title": "【接口需求】通过分享出来的id查询代理人的profile（public）"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/376\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 23, 2025</sup>\n<img width=\"643\" height=\"672\" alt=\"image\" src=\"https://github.com/user-attachments/assets/acd81913-97b3-4f00-a42e-b60d2e68f096\" />\r\n<img width=\"680\" height=\"695\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4cef8540-3cbd-424c-99f4-40f1daf1f9b8\" />\r\n\r\nhttps://github.com/user-attachments/assets/7a99093f-5c60-4a1f-843f-f5d28678e49e\r\n\r\n</div>",
+    "number": 378,
+    "title": "页面修改  登录页  文字大小  输入框大小  输入框没有白色填充   创建账号按钮在页面底部  有提示文字"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/client.md#0-%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%8E%B7%E5%8F%96%E6%9C%AC%E6%9C%88%E6%80%BB%E6%94%B6%E5%85%A5",
+    "number": 375,
+    "title": "推广服务接口对接：客户端获取本月总收入"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/game_flow_report_flask_staging/admin.md",
+    "number": 373,
+    "title": "流水服务由provider改为game_flow_report_flask提供"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#2-%E5%90%8E%E5%8F%B0%E5%90%AF%E7%94%A8%E7%94%A8%E6%88%B7",
+    "number": 372,
+    "title": "代理推广服务：启用用户、禁用用户接口"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#1-%E5%90%8E%E5%8F%B0%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2%E7%94%A8%E6%88%B7%E5%88%97%E8%A1%A8",
+    "number": 371,
+    "title": "代理推广服务：用户列表查询接口"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/affiliate_partner_flask_staging/admin.md#0-%E5%90%8E%E5%8F%B0%E5%88%9B%E5%BB%BA%E7%94%A8%E6%88%B7",
+    "number": 370,
+    "title": "代理推广服务：管理创建用户接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/366\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 20, 2025</sup>\n\r\nhttps://github.com/user-attachments/assets/5f4994ef-eb6f-46eb-bafa-6807001a2145\r\n\r\n</div>",
+    "number": 368,
+    "title": "主页面切换   首页 钱包 我的 页面切换是白色背景  但是点了收藏  就会出现黑色背景"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/343\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 15, 2025</sup>\n<img width=\"743\" height=\"530\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c5361173-9a91-4aee-84a1-fa3f36bf12ca\" />\r\n<img width=\"1917\" height=\"917\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5d4b1937-782e-40a5-b442-b271b28b7bc8\" />\r\n</div>",
+    "number": 364,
+    "title": "游戏中  突然掉线  点确定  页面变成白板"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/362\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 19, 2025</sup>\n![IMAGE 2025-12-19 18:13:19](https://github.com/user-attachments/assets/db224a20-ebf4-4fba-9b26-30846edeef29)\r\n</div>",
+    "number": 363,
+    "title": "首页  手机端查看全部分类  显示有误"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/game_info_flask_staging/public.md    235",
+    "number": 358,
+    "title": "对接 - 对接搜索游戏接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/321\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 12, 2025</sup>\n<img width=\"692\" height=\"716\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0b3f26ed-2fef-47f8-ab14-241f1f15b487\" />\r\n\r\nhttps://github.com/user-attachments/assets/37c9c3e9-a5ea-4556-948a-c13c32d6c181\r\n\r\n</div>",
+    "number": 357,
+    "title": "首页 查看全部分类的弹窗，1遮罩在页面下面  不是在页面上面   2弹窗位置不对 弹窗出来  弹窗收起按钮没有"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/353\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 18, 2025</sup>\n<img width=\"426\" height=\"752\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5f35f616-90bc-4c87-9a24-c5b63d7efffd\" />\r\n</div>",
+    "number": 356,
+    "title": "签到页面 更新了"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/354\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 18, 2025</sup>\n<img width=\"266\" height=\"575\" alt=\"image\" src=\"https://github.com/user-attachments/assets/41bb9da7-ea97-4a5d-9761-8999ab6d20d4\" />\r\n</div>",
+    "number": 355,
+    "title": "游戏分享页面更新了分享平台"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/351\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 17, 2025</sup>\n<img width=\"849\" height=\"687\" alt=\"image\" src=\"https://github.com/user-attachments/assets/283587aa-dc12-46f9-a633-fae9a7e9de1d\" />\r\n</div>",
+    "number": 352,
+    "title": "我的页面 签到图标换一下"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/349\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 17, 2025</sup>\n<img width=\"959\" height=\"673\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55d34760-9fbd-4801-8577-bf34526b6fe5\" />\r\n</div>",
+    "number": 350,
+    "title": "游戏详情页  增加收藏成功提醒  点击收藏跳转到2  提示内容显示2秒  自动消失   游戏名称下面的标签和收藏图标大小改了一下"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/325\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 12, 2025</sup>\n<img width=\"454\" height=\"984\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0259174-c25c-41f3-a71e-6dfaa24d3a1f\" />\r\n</div>",
+    "number": 347,
+    "title": "首页  分类在左右滑动的时候   游戏图片粘连在一起了"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/329\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 12, 2025</sup>\n<img width=\"656\" height=\"834\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3c647bd8-bdc7-4569-a395-415b7d91de2c\" />\r\n</div>",
+    "number": 346,
+    "title": "重新填写身份认证页面，选择框和输入框，样式和高度不一样"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/311\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** December 11, 2025</sup>\n登录：\r\n<img width=\"696\" height=\"755\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/56e55382-7c20-432a-934e-79b410cc5aca\" />\r\n注册：\r\n<img width=\"676\" height=\"751\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/4cb26ca4-f3ed-4863-9589-f9bbe5387bc1\" />\r\n</div>",
+    "number": 345,
+    "title": "登录注册UI图已修改"
+  },
+  {
+    "body": "TG：const shareUrl = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`;\nX：const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;\nFaceBook：const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;",
+    "number": 344,
+    "title": "游戏分享"
+  },
+  {
+    "body": "https://appcookies.freshworks.com/crm/messaging/a/325011004361833/inbox/0/0/conversation/1077390026545652\n\n",
+    "number": 341,
+    "title": "处理laiwan 的bug"
+  },
+  {
+    "body": "[创建自定义充值订单](https://github.com/kevinanew/api_doc/blob/master/virtual_payment_flask_staging/client_order.md#2-%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%85%85%E5%80%BC%E8%AE%A2%E5%8D%95)\n\n\n\n暂时倍率是10倍获得",
+    "number": 340,
+    "title": "对接 - usdt充值对接自定义数字充值"
+  },
+  {
+    "body": "没有登录的情况下，进入游戏详情 点击 “play now”，会跳转kyc提示页面，进行填写kyc\n应该是提醒登录的页面\n<img width=\"789\" height=\"1947\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e19500c6-4009-4849-b1fb-8e85da325f7a\" />\n\n<img width=\"792\" height=\"1574\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7118e53a-625f-425a-8748-184d311ea797\" />\n\n<img width=\"787\" height=\"1647\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7a1d05d2-9f60-4321-9108-6611080fa00c\" />\n\n<img width=\"789\" height=\"1918\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0caec53d-ea4a-4f39-8d4d-3f196f6e6923\" />",
+    "number": 338,
+    "title": "未登录流程bug"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/332\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** December 12, 2025</sup>\n<img width=\"821\" height=\"1155\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/515909b7-1577-40a9-986a-8e8ef2ce9eb2\" />\r\n</div>",
+    "number": 337,
+    "title": "自动轮播时，没有右翻页按钮"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/331\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 12, 2025</sup>\n<img width=\"726\" height=\"702\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2d36bf02-5a0b-4eb4-b3fc-ea78da37c9e0\" />\r\n</div>",
+    "number": 336,
+    "title": "钱包页面  自定义输入  提示文案 重复了   在输入里有提示就行了"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/328\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 12, 2025</sup>\n\r\nhttps://github.com/user-attachments/assets/f6e4013f-8898-40a8-9707-236410407dc7\r\n\r\n<img width=\"448\" height=\"356\" alt=\"image\" src=\"https://github.com/user-attachments/assets/307126b2-0c0f-479e-b0ae-85bfbdba6c25\" />\r\n</div>",
+    "number": 335,
+    "title": "没有身份认证时  用户点开始游戏  到了提示用户身份身份页面  点身份认证应该直接去表单   而不是去身份验证这个页面"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/301\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** December  8, 2025</sup>\n<img width=\"826\" height=\"879\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/c61dbe14-801e-4e99-94d5-8bf703d2b16e\" />\r\n主要来源抖音、tiktok打赏充值弹窗</div>",
+    "number": 327,
+    "title": "游戏中充值弹窗原型图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/324\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 12, 2025</sup>\n<img width=\"456\" height=\"984\" alt=\"image\" src=\"https://github.com/user-attachments/assets/f4681153-eaa3-440e-9cca-83673690a827\" />\r\n</div>",
+    "number": 326,
+    "title": "首页签到  页面向上滑动  关闭签到的按钮    应该在分类栏的下方  现在在上放"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/312\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** December 11, 2025</sup>\n<img width=\"590\" height=\"1280\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/7c78120e-463e-4669-90e1-c142ab8a5212\" />\r\n</div>",
+    "number": 318,
+    "title": "钱包页面：给结算部分添加背景"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/316\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** December 11, 2025</sup>\n参考：[原型图](https://github.com/kevinanew/game_portal/discussions/309)</div>",
+    "number": 317,
+    "title": "【接口需求】游戏详情需要获取游戏的screenhot接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/309\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** December 10, 2025</sup>\n<img width=\"968\" height=\"987\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/2bece6cc-00ba-462a-84a7-983f416e8e5f\" />\r\n注意：目前横、竖截图按照iphone SE的 667 * 375的比例。不允许其他比例</div>",
+    "number": 315,
+    "title": "游戏详情原型图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/313\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** December 11, 2025</sup>\n\r\nhttps://github.com/user-attachments/assets/e7392e67-f143-4db7-ae00-24f0e66a4929\r\n\r\n</div>",
+    "number": 314,
+    "title": "钱包和收藏页面显示已登录  我的和首页显示未登录"
+  },
+  {
+    "body": "文档 https://github.com/kevinanew/api_doc/blob/master/virtual_payment_flask_staging/client_order.md\n参考 https://h5.shafayouxi.org/ -> 我的 ->商店 ->  USDT\n\n\n暂时是充值钻石  正在改为php 中  可以先对接",
+    "number": 308,
+    "title": "对接 虚拟币支付"
+  },
+  {
+    "body": "每当点击分类，头像都会闪一下； 给头像添加 “跳转至 menu页面功能”\n<img width=\"675\" height=\"1159\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7c6a31a3-3eee-4a99-9542-d61a5c594f12\" />",
+    "number": 307,
+    "title": "home页面：顶部头像"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/305\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** December 10, 2025</sup>\n用来展示所有游戏类型</div>",
+    "number": 306,
+    "title": "【接口需求】游戏门户首页需要一个获取所有游戏类型的接口"
+  },
+  {
+    "body": "<img width=\"679\" height=\"1161\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6dc2fc7c-86bf-4367-9df4-5072763c71ee\" />",
+    "number": 303,
+    "title": "首页中的左右切换按钮样式出错"
+  },
+  {
+    "body": "MISCONF Errors writing to the AOF file: No space left on device   \n\n<img width=\"2027\" height=\"1335\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/052bd113-ec35-4b00-ab77-68c87c4886c1\" />\n\n\nhttps://sentry.laiwan.io/organizations/sentry/issues/6631/?_allp=1&query=is%3Aunresolved&referrer=issue-stream\nhttps://sentry.laiwan.io/organizations/sentry/issues/6608/?query=is%3Aunresolved&referrer=issue-stream\nhttps://sentry.laiwan.io/organizations/sentry/issues/6608/?query=is%3Aunresolved&referrer=issue-stream",
+    "number": 300,
+    "title": "redis AOF文件过大的问题"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/289\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** December  2, 2025</sup>\n1.提示需要去身份认证\r\n<img width=\"482\" height=\"833\" alt=\"image\" src=\"https://github.com/user-attachments/assets/53b4439e-9a46-4e7d-8e55-2c3db9912895\" />\r\n2.提示余额不足\r\n<img width=\"482\" height=\"842\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0c618d5f-906c-4be9-934d-bba7c10e5e9d\" />\r\n\r\n</div>",
+    "number": 299,
+    "title": "原型图：用户端 点击“开始游戏”的提示页面"
+  },
+  {
+    "body": "<img width=\"677\" height=\"1331\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e0a1e70b-491c-4ee1-9123-8203ae2db350\" />\n\n- 页面 http://localhost:3000/game-detail/game-play?game_id=1037119e-8bd0-4ee7-b7df-dff02da0fb14\n- 暂时的解决办法，多点几次返回按钮",
+    "number": 298,
+    "title": "【前端】当玩游戏出现500的错误，用户无法返回上一页"
+  },
+  {
+    "body": "",
+    "number": 297,
+    "title": "上传头像动画需要修复"
+  },
+  {
+    "body": "head部分没有背景遮罩，滑动时 只有文字固定\n<img width=\"676\" height=\"1164\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/097b3be4-ee59-4704-b732-c258e17ebd66\" />",
+    "number": 296,
+    "title": "用户端主页面样式出错"
+  },
+  {
+    "body": "<img width=\"663\" height=\"1148\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9e6d71bb-b5ea-4a29-b46b-cfa838c446f4\" />",
+    "number": 295,
+    "title": "分类的高亮效果应该跟随主页分类位置变化"
+  },
+  {
+    "body": "<img width=\"672\" height=\"1152\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/aeecd3b7-2200-4005-9517-d306132f50d4\" />",
+    "number": 294,
+    "title": "修改头像出错"
+  },
+  {
+    "body": "截图中的是前两天的。另建议界面中再增加一个最近玩的时间\n\n<img width=\"446\" height=\"754\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9daf2a21-d06b-429b-8f16-7d35819e6b7a\" />",
+    "number": 292,
+    "title": "今天玩过的游戏没有在最近玩过的游戏中记录下来"
+  },
+  {
+    "body": "",
+    "number": 291,
+    "title": "来玩中德州扑克的产品说明"
+  },
+  {
+    "body": "\n<img width=\"1538\" height=\"1147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/96af0132-72fd-488d-a31f-de8e44829a37\" />\n\n<img width=\"1290\" height=\"2796\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c024c1dc-5619-4260-ab0b-bbad033e631e\" />\n\n<img width=\"1290\" height=\"2796\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/627d9052-7107-4bb8-9602-576e87754215\" />",
+    "number": 290,
+    "title": "来玩客服：看不到连的哪台服务器"
+  },
+  {
+    "body": "https://github.com/user-attachments/assets/6f59d05c-37ed-404c-b91f-c97a4d905eb1",
+    "number": 288,
+    "title": "移动端safari游戏大图左右显示重叠"
+  },
+  {
+    "body": "https://github.com/kevinanew/api_doc/blob/master/check_in_flask_staging/readme.md#1-%E7%AD%BE%E5%88%B0%E5%A5%96%E5%8A%B1%E5%88%97%E8%A1%A8\n\n\n\n\n暂时签到送的是 coin 货币     后续等待我们部署到新的集群后会换为php",
+    "number": 286,
+    "title": "对接签到"
+  },
+  {
+    "body": "目前只能通过滑动模块滑动，对移动端不友好\n<img width=\"762\" height=\"1156\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ba20655f-42f7-4b33-b5ab-31f26fcc10e0\" />",
+    "number": 284,
+    "title": "用户流水页面：建议修改为可拖拽滑动"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/264\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 27, 2025</sup>\n<img width=\"815\" height=\"678\" alt=\"image\" src=\"https://github.com/user-attachments/assets/69f5a548-e84b-4e48-990b-730b57e4bb10\" />\r\n图用错了  间距不对</div>",
+    "number": 283,
+    "title": "绑定邮箱（换图）"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/280\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** December  1, 2025</sup>\n把三种账号设置放进“Account Security”中\r\n<img width=\"731\" height=\"742\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/6fe2e9f1-4368-493d-9cc6-aab6739642e5\" />\r\n</div>",
+    "number": 282,
+    "title": "更新setting页面"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/260\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 27, 2025</sup>\n\r\n<img width=\"869\" height=\"602\" alt=\"image\" src=\"https://github.com/user-attachments/assets/32e9eb68-de7b-417b-bc65-14caab1d89a9\" />\r\n\r\n1.  精选加标题 \r\n2. 图片比例改为正方形\r\n3. 缺少查看全部分类功能</div>",
+    "number": 281,
+    "title": "首页样式需要更改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/278\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** November 30, 2025</sup>\n我的页面头像区和下面的功能区离得太近了，页面看着很紧凑。建议拉开点距离\r\n\r\n<img width=\"454\" height=\"749\" alt=\"截屏2025-11-30 21 44 54\" src=\"https://github.com/user-attachments/assets/29aac9a1-7acd-45fc-bcd8-8ccb81760875\" />\r\n</div>",
+    "number": 279,
+    "title": "我的页面头像区和下面的功能区离得太近了"
+  },
+  {
+    "body": "<img width=\"443\" height=\"588\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/350147a0-6fc4-466b-b246-c8f7dda69735\" />",
+    "number": 277,
+    "title": "首页游戏大图边角显示错误，应为圆角"
+  },
+  {
+    "body": "",
+    "number": 272,
+    "title": "没有用户名时，不显示用户名"
+  },
+  {
+    "body": "",
+    "number": 271,
+    "title": "购买成功跳转购买成功页面"
+  },
+  {
+    "body": "",
+    "number": 270,
+    "title": "各个页面补齐客服按钮"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/258\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 27, 2025</sup>\n<img width=\"949\" height=\"372\" alt=\"image\" src=\"https://github.com/user-attachments/assets/89988695-acf6-4312-9c6c-5d7d7592a3fe\" />\r\ntab   样式修改</div>",
+    "number": 269,
+    "title": "tab"
+  },
+  {
+    "body": "<img width=\"2363\" height=\"1281\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/511ff343-caa9-4bc7-b863-5e3c695402d9\" />",
+    "number": 268,
+    "title": "后台客户端：钱包功能报错"
+  },
+  {
+    "body": "<img width=\"2468\" height=\"1306\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2a4e7abf-7c6a-451e-9593-74d6df77efb7\" />",
+    "number": 267,
+    "title": "用户端报错"
+  },
+  {
+    "body": "game_info_flask 服务的",
+    "number": 265,
+    "title": "需要批量查询游戏详情的接口"
+  },
+  {
+    "body": "<img width=\"885\" height=\"844\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3b141279-990a-4ad3-b6c5-2a728f313777\" />",
+    "number": 257,
+    "title": "未限制游戏图片宽度"
+  },
+  {
+    "body": "<img width=\"1904\" height=\"842\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/445758cc-2508-4bff-8c48-5d0ab888b5fb\" />",
+    "number": 256,
+    "title": "后台管理：approval页面 修改功能报错"
+  },
+  {
+    "body": "主要是使用pyvips  缩放图片  避免图片处理内存占用过大",
+    "number": 255,
+    "title": "game_info 的上传图片重构"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/141\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 18, 2025</sup>\n<img width=\"572\" height=\"691\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/b258f881-ed61-4366-b5be-6290c4d3c0c6\" />\r\n图中的五条信息的状态标注在最左列了，左右对应</div>",
+    "number": 254,
+    "title": "前端：用户流水原型图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/241\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 26, 2025</sup>\n点击分类按钮需要滑动到相应位置并高亮该分类区域（区域白一下?)\r\n<img width=\"678\" height=\"850\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/ea182de7-84fa-464d-b4f8-622ce297cd70\" />\r\n</div>",
+    "number": 253,
+    "title": "首页：分类按钮添加效果"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/251\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** November 26, 2025</sup>\n移动端 Menu页面在未登录状态时，页面内容较靠下，导致按钮在一屏情况下显示不全。建议页面内容整体上移一些\r\n\r\n<img width=\"1170\" height=\"2532\" alt=\"IMG_8384\" src=\"https://github.com/user-attachments/assets/d84b99ba-3a5d-4845-8330-4608e3e9fccc\" />\r\n</div>",
+    "number": 252,
+    "title": "移动端 Menu页面在未登录状态时，页面内容较靠下，导致按钮在一屏情况下显示不全"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/233\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 25, 2025</sup>\n<img width=\"1170\" height=\"2532\" alt=\"WechatIMG3362\" src=\"https://github.com/user-attachments/assets/91b2764d-b7d7-4fe5-8ff3-35ee108db165\" />\r\n用户名注册时   用户名不能用应该在第一步告诉用户 此用户名不能使用  如用户名已被使用或不能出现特殊符号  不是在用户设置密码的时候再告诉用户 用户名不能使用\r\n\r\n</div>",
+    "number": 250,
+    "title": "用户名注册"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/240\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 26, 2025</sup>\n<img width=\"655\" height=\"849\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/9a72a42b-9b96-43b7-b534-4b625588f64a\" />\r\n</div>",
+    "number": 249,
+    "title": "游戏详情添加客服入口"
+  },
+  {
+    "body": "[游戏历史](https://github.com/kevinanew/api_doc/blob/7ae8d1d97339b2646b516ba7c3cc4106830b98a6/game_play_hisotry_flask_staging/client.md#L23)",
+    "number": 248,
+    "title": "【portal】游戏历史"
+  },
+  {
+    "body": "",
+    "number": 246,
+    "title": "更换手机号功能，样式和更换邮箱一样"
+  },
+  {
+    "body": "",
+    "number": 245,
+    "title": "货币code 调整   real_php -> php"
+  },
+  {
+    "body": "",
+    "number": 243,
+    "title": "对接 - 展示昨日注册量"
+  },
+  {
+    "body": "",
+    "number": 242,
+    "title": "[后端接口开发] 需要统计前一天的agent流水统计接口"
+  },
+  {
+    "body": "@zxt841614467-maker @januwA \n<img width=\"723\" height=\"845\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1e5c4ad2-d478-416a-a4c2-cbeea11a92f2\" />",
+    "number": 239,
+    "title": "首页游戏无图时，统一使用占位图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/231\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 25, 2025</sup>\n没有登录的时候, 首页点注册按钮  应该直接跳转到注册页面,现在是跳转到了登录页.  点登录就跳登录页\r\n<img width=\"785\" height=\"795\" alt=\"image\" src=\"https://github.com/user-attachments/assets/20a6625e-4a7a-45e1-901b-a1eb1c68d617\" />\r\n</div>",
+    "number": 238,
+    "title": "未登录跳转不准确"
+  },
+  {
+    "body": "",
+    "number": 237,
+    "title": "后台管理：kyc上传 长照片 压缩 问题"
+  },
+  {
+    "body": "![Image](https://github.com/user-attachments/assets/3637b827-02ba-4788-b329-5e6121efb67b)",
+    "number": 236,
+    "title": "手机验证码发送失败"
+  },
+  {
+    "body": "<img width=\"637\" height=\"840\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/1aca163e-4c88-4b9f-a3cc-5e83ec2b56da\" />",
+    "number": 235,
+    "title": "移动端safari浏览器:home页面 “sign up\"按钮跳转 ”login”页面"
+  },
+  {
+    "body": "在管理员后台修改nickname，前端没变化\n<img width=\"1865\" height=\"852\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/7c2f4f5e-a5b8-4e63-8603-f32897cdb0c1\" />\n\n<img width=\"1075\" height=\"877\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c704e82b-74ab-4c43-8280-8bfb6b1af202\" />",
+    "number": 229,
+    "title": "前后端修改nickname不同步"
+  },
+  {
+    "body": "上传中是正的\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c176acf1-2be6-4405-959d-08781e8d23f1\" />\n\n\n保存完返回\n\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f61c5a9f-611a-4f43-a969-ac82f75bf87f\" />\n\n\n再次进入\n\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9b43c9fd-ab11-4fc4-9eaa-d191d013cb66\" />",
+    "number": 228,
+    "title": "移动端safari更换头像后  旋转了头像图片"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/175\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** November 21, 2025</sup>\n- 每个游戏平台需要一个可配置的别名，如：平台名称`gaohai`可以设置别名为`GH`</div>",
+    "number": 227,
+    "title": "每个游戏平台需要一个别名"
+  },
+  {
+    "body": "",
+    "number": 225,
+    "title": "用户流水原型图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/200\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 22, 2025</sup>\n目前没有这些游戏种类，是否会误导用户\r\n<img width=\"804\" height=\"1961\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9ce70963-180a-403b-86e3-a79f01fe4078\" />\r\n</div>",
+    "number": 224,
+    "title": "用户端：未登录时menu页面UI图片修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/189\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 22, 2025</sup>\n<img width=\"1069\" height=\"877\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/9310d93b-0753-4098-98dd-3bcbcd5e4cc7\" />\r\n</div>",
+    "number": 223,
+    "title": "建议选中效果只高亮一个"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/184\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 22, 2025</sup>\n<img width=\"1170\" height=\"2532\" alt=\"WechatIMG3339\" src=\"https://github.com/user-attachments/assets/c7f1e3f4-3801-4cfa-a239-b361277157f6\" />\r\n用用户名注册后 ，绑定了手机号  ，但是我要更换手机号  ，就不能更换了  点手机号没有反应</div>",
+    "number": 222,
+    "title": "修改手机号"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/152\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 19, 2025</sup>\n输入验证码后，没有显示绑定成功的提示，而是返回设置页面\r\n1.建议增加绑定成功的提示\r\n<img width=\"791\" height=\"1311\" alt=\"image\" src=\"https://github.com/user-attachments/assets/72a61b16-6f3d-408f-a304-9fdf4fe68c33\" />\r\n可参照：\r\n<img width=\"794\" height=\"1949\" alt=\"image\" src=\"https://github.com/user-attachments/assets/12c43735-bed9-4c22-87ec-e52f831c2577\" />\r\n\r\n</div>",
+    "number": 221,
+    "title": "用户端：绑定电话号码页面补充提示修改（P2）"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/186\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 22, 2025</sup>\n用Username注册账号后 ，登录了应用。应用没有显示出Username，时间久了用户会不会忘记自己的Username。</div>",
+    "number": 220,
+    "title": "Username  需要显示出来给用户自己看"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/199\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 22, 2025</sup>\n<img width=\"1170\" height=\"2532\" alt=\"WechatIMG3345\" src=\"https://github.com/user-attachments/assets/2effe91c-d03f-4276-b897-9868f96cf0ee\" />\r\n 忘记密码 f改一下大写   忘记密码不放中间放右边同按钮对齐\r\n</div>",
+    "number": 219,
+    "title": "大小写"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/204\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 24, 2025</sup>\n<img width=\"1181\" height=\"684\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/ba6b1b9f-f10e-4cc1-8cc5-fa94af7aadef\" />\r\n</div>",
+    "number": 218,
+    "title": "后台“Pending Approve”原型图修改：新增状态和按钮"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/215\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** November 24, 2025</sup>\n\r\n<img width=\"1722\" height=\"617\" alt=\"image\" src=\"https://github.com/user-attachments/assets/00aa24aa-3927-4bb2-a16b-5050ad1c1cfa\" />\r\n\r\n\r\n## 第三方商品图片资源存在性能/安全/合规风险\r\n\r\n当前系统直接在前端加载上游服务商提供的商品图片URL（如 `https://agent-icon.fcg1688.net/icon/22058_200x200_en.png`），未经过任何代理或转存处理，存在多重业务与技术风险。\r\n\r\n## 🔴 已识别的风险清单\r\n\r\n1. 用户隐私泄露与合规风险\r\n  - GDPR/CCPA违规：用户IP、User-Agent、浏览行为直接暴露给第三方\r\n  - Referrer泄露：第三方可追踪用户访问的商品、搜索关键词及页面路径\r\n  - Cookie追踪：第三方可在图片请求中植入追踪Cookie\r\n  - 法律后果：面临跨境数据传输合规审查及罚款风险\r\n\r\n2. 安全与供应链攻击风险\r\n  - 图片投毒：第三方服务被黑后可返回恶意图片（嵌入恶意代码）\r\n  - 中间人攻击：HTTP链接可被劫持替换为钓鱼图片\r\n  - 域名失效：上游更换域名或证书过期导致整站图片无法加载\r\n  - 内容篡改：上游可随意替换图片内容，影响商品真实性\r\n3. 服务稳定性与业务连续性\r\n  - SLA不可控：第三方故障直接导致我方商品页图片大面积空白\r\n  - 带宽限制：第三方可能限制请求频率，导致图片加载失败\r\n  - 无降级策略：上游服务异常时无法自动切换至默认图\r\n  - 串联故障：上游CDN抖动会级联影响我方服务可用性\r\n\r\n## ✅ 推荐解决方案\r\n\r\n- 服务器：提前处理上游提供的图片到自己的服务器上</div>",
+    "number": 217,
+    "title": "第三方游戏图片使用问题分析与解决方案"
+  },
+  {
+    "body": "<img width=\"1377\" height=\"879\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c6d54bfa-c64c-4ea0-9aac-16f1c3d17a8a\" />",
+    "number": 214,
+    "title": "游戏图片没有限制尺寸"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/207\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 24, 2025</sup>\n希望在A地方点进详情，返回出来 ，仍然是A地方呈现的home页面\r\n<img width=\"1696\" height=\"873\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/a133faf3-0475-417d-87a0-a3ee1b90368b\" />\r\n</div>",
+    "number": 213,
+    "title": "前端 home页面：总会返回主页面顶部"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/207\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 24, 2025</sup>\n希望在A地方点进详情，返回出来 ，仍然是A地方呈现的home页面\r\n<img width=\"1696\" height=\"873\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/a133faf3-0475-417d-87a0-a3ee1b90368b\" />\r\n</div>",
+    "number": 212,
+    "title": "前端 home页面：总会返回主页面顶部"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/210\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** November 24, 2025</sup>\n<img width=\"1170\" height=\"2532\" alt=\"IMG_8371\" src=\"https://github.com/user-attachments/assets/4f44d502-1658-4d39-84af-70c5df065a81\" />\r\n</div>",
+    "number": 211,
+    "title": "移动端KYC验证通过的图标有明显锯齿"
+  },
+  {
+    "body": "<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bb43a0c0-7399-4591-92e4-91244b63f278\" />",
+    "number": 209,
+    "title": "游戏详情里面的收藏功能没有隐藏"
+  },
+  {
+    "body": "应当：每次查询失败，都会跳出错误提示弹窗\n<img width=\"1851\" height=\"880\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/06b83b9f-a8c0-4190-b5a2-c45952f0bacc\" />",
+    "number": 206,
+    "title": "查询失败弹窗：只会弹出一次"
+  },
+  {
+    "body": "<img width=\"1808\" height=\"1071\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d6cffb1b-277b-4d1e-9cae-1526b9903280\" />",
+    "number": 205,
+    "title": "火狐浏览器：加载不出审核功能"
+  },
+  {
+    "body": "前面是使用的Chrome，后面是Safari，不是我网络问题\n\n<!-- Failed to upload \"屏幕录制2025-11-22 22.24.51.mov\" -->\n\n同Chrome浏览器下，其他网页加载情况\n\n<!-- Failed to upload \"屏幕录制2025-11-22 22.22.34.mov\" -->",
+    "number": 203,
+    "title": "Chrome浏览器页面加载不出来"
+  },
+  {
+    "body": "<img width=\"1357\" height=\"1063\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/62815e4f-e3e4-4d5d-b027-0efae4f67dcf\" />",
+    "number": 201,
+    "title": "火狐浏览器无痕模式 客服按钮失效"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/196\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 22, 2025</sup>\n<img width=\"445\" height=\"833\" alt=\"image\" src=\"https://github.com/user-attachments/assets/298eb03d-cbc0-4366-9b84-e988892cefa6\" />\r\n在未登录情况下   用户点击右上角 登录就跳转到登录页   点注册就直接跳注册页面   之前的登录和注册是一起的  这里需要修改一下 现在登录注册分开了</div>",
+    "number": 197,
+    "title": "登录/注册"
+  },
+  {
+    "body": "<img width=\"491\" height=\"875\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f9db4f65-9f67-4304-a4a4-41c507b33051\" />",
+    "number": 195,
+    "title": "待开发：主页面搜索游戏功能"
+  },
+  {
+    "body": "<img width=\"553\" height=\"861\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d3a61a9c-8f12-4de7-b13a-13d3bc0c634c\" />",
+    "number": 194,
+    "title": "登录界面：先输入手机号后  再删除填邮箱，号码前缀一直显示"
+  },
+  {
+    "body": "注册时需要大小写和特殊字符，修改密码的新密码仍可以12345678",
+    "number": 192,
+    "title": "设置中修改密码未添加限制条件"
+  },
+  {
+    "body": "<img width=\"630\" height=\"910\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4abb23d2-a334-4347-bd0a-38e0af507b79\" />",
+    "number": 191,
+    "title": "手机端中 提交按钮样式出错"
+  },
+  {
+    "body": "<img width=\"1072\" height=\"878\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/5ab3d17f-cb79-493d-b4f7-efa0a2ba2465\" />",
+    "number": 190,
+    "title": "左右滑动按钮：左边不能滑动时，请隐藏左边的按钮"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/185\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 22, 2025</sup>\n有些游戏图标中游戏名称会在下面，被遮挡显示不全\r\n<img width=\"1075\" height=\"883\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/41ee306a-ecd8-4e9a-ac7b-b7888a31f743\" />\r\n</div>",
+    "number": 188,
+    "title": "游戏图标被遮挡"
+  },
+  {
+    "body": "<img width=\"1392\" height=\"876\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/354365d9-f6c5-4429-a3f9-66470321543b\" />\n返回按钮，变为刷新此页面功能\n<img width=\"1517\" height=\"1013\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/718e5d0d-a614-4a06-988f-33fd485c01e3\" />",
+    "number": 187,
+    "title": "前端：分类详情页面中的游戏详情返回按钮失效"
+  },
+  {
+    "body": "<img width=\"1132\" height=\"1966\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c776fd64-9b19-465e-b983-38d53e4de4cb\" />",
+    "number": 183,
+    "title": "用户端：首页样式bug遮挡头部"
+  },
+  {
+    "body": "<img width=\"446\" height=\"751\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/706ea112-f11f-46d8-a314-35af6222332e\" />\n<img width=\"445\" height=\"754\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0f48d32a-82dc-4dc0-876a-47702bfb645a\" />",
+    "number": 180,
+    "title": "KYC信息填写时，网页翻译情况下，部分表单名称前的*号消失"
+  },
+  {
+    "body": "<img width=\"1877\" height=\"796\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/047cc57e-5db7-43bf-ad98-250c1ee30a8b\" />\n去Pending Approval拿了游戏  到了Approved页面 ，点击第10页面，会出现这个页面  \n\n<img width=\"1910\" height=\"830\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e92e80dc-3c2e-42fa-a8c4-c69b727360d5\" />\n\n报错\n",
+    "number": 177,
+    "title": "后台报错"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/167\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 20, 2025</sup>\n<img width=\"758\" height=\"833\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a185bbc1-5008-4285-af5f-798ccbead771\" />\r\n\r\n\r\n分类展示显示不对，参考右图 ，  之前的正副标题不要了 ，只有一个标题就是分类的名称   </div>",
+    "number": 174,
+    "title": "首页 游戏分类展示有误"
+  },
+  {
+    "body": "<img width=\"1851\" height=\"856\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4718a56b-2e4f-4f44-8d2d-e4158254b527\" />\n\n<img width=\"1842\" height=\"869\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b89caa6a-fb73-44be-9d9a-1cbbfadbe5a3\" />",
+    "number": 173,
+    "title": "后台管理：kyc中大量的证件照片加载不出"
+  },
+  {
+    "body": "新注册的号码，在进入个人资料页面时都还是默认头像，当修改完昵称（未修改头像）保存后，返回个人资料，默认头像不见了\nMAC chrome\n\nhttps://github.com/user-attachments/assets/8333d0c5-bebf-4b65-888f-4adef9f8179b",
+    "number": 172,
+    "title": "新注册的号码，个人资料页面，在修改呢称后头像显示有误"
+  },
+  {
+    "body": "<img width=\"652\" height=\"877\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/86d62f5a-8b25-49cb-90e1-ef685878c610\" />",
+    "number": 171,
+    "title": "客服系统启动失败"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/159\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 19, 2025</sup>\n<img width=\"1202\" height=\"447\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7c93aae0-e456-426a-a00b-1adfa32c5187\" />\r\n\r\n用户在没有实名认证的情况下   登录进来钱包和我的页面   展示样式1和2     点击认证  填写了资料后    钱包和我的页面状态发生改变   展示样式3   经后台审核后  状态分别为未通过和已通过  未通过展示样式4  已通过为5    </div>",
+    "number": 166,
+    "title": "登录后没有实名认证 主页面展示内容"
+  },
+  {
+    "body": "这是前端的绑定邮箱\n<img width=\"1611\" height=\"876\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e9deefdb-e070-4ab5-a9e5-e6e4e48ab37c\" />\n这是后台管理的邮箱状态\n<img width=\"1916\" height=\"882\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9538b29e-218a-4394-a407-e644bded7d8d\" />\n",
+    "number": 165,
+    "title": "前后端邮箱状态不一致"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/161\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 19, 2025</sup>\n圈中的游戏，描述只有一排\r\n<img width=\"1166\" height=\"879\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/494beca3-5e68-463a-85c2-81aa3af50fc8\" />\r\n这是该游戏的详情描述，可以看到游戏描述非常多，不应该在首页只显示一排\r\n<img width=\"865\" height=\"874\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/9595aee2-ede1-49bc-81d6-734952176e79\" />\r\n</div>",
+    "number": 163,
+    "title": "前端 home页面：描述足够长却没有撑开描述的第二行及“省略号”效果"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/154\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 19, 2025</sup>\n<img width=\"448\" height=\"872\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/8c0381b2-3a90-4e3c-b40c-c547f136089e\" />\r\n已填写合规内容，但输入框还显示  红色</div>",
+    "number": 162,
+    "title": "修复kyc认证填写效果"
+  },
+  {
+    "body": "<img width=\"460\" height=\"876\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ef6883dc-be5d-4051-b831-5ec89b39b206\" />",
+    "number": 157,
+    "title": "前端  游戏详情页面：游戏描述过多时，超出页面范围"
+  },
+  {
+    "body": "<img width=\"1198\" height=\"868\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fd752e60-de9e-4d93-b5c1-71beb0d2a964\" />\n注册的新账号，会看见我在上一个账号聊过的信息",
+    "number": 155,
+    "title": "客服系统：已经换了第二个账号，仍然会显示第一个账号聊过的内容"
+  },
+  {
+    "body": "想要查看电话号码，点击没有反应。也没有相关提示\n\n上下两个模块的标题都是一样的\n\n<img width=\"449\" height=\"693\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/40e7d069-cce4-4d7e-b97b-aea592fc6ded\" />",
+    "number": 148,
+    "title": "设置页面里的电话号码无法查看"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/146\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 19, 2025</sup>\n<img width=\"1876\" height=\"865\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/4c733ee9-187e-43ed-ba77-936a7b37f0a5\" /></div>",
+    "number": 147,
+    "title": "后台管理中Game包含的两个页面的“预览”按钮失效"
+  },
+  {
+    "body": "现在是前端自己去写的判断图片是否有效，可以换成后端提供的接口\n \n- 接口文档：https://github.com/kevinanew/api_doc/blob/master/kyc_flask_staging/client.md?plain=1#L240",
+    "number": 145,
+    "title": "[客户端] 可以用`/v1/kyc/validate_image`接口去验证图片是否有效"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/134\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** November 18, 2025</sup>\n## 接口需求\r\n- 用户能在游戏详情收藏和取消收藏游戏\r\n- 在用户收藏页面(/collection)展示收藏的游戏列表</div>",
+    "number": 144,
+    "title": "【后端接口需求】用户收藏游戏，取消收藏游戏，用户收藏游戏列表"
+  },
+  {
+    "body": "",
+    "number": 143,
+    "title": "【后端接口需求】需要用户最近玩过的游戏接口"
+  },
+  {
+    "body": "",
+    "number": 142,
+    "title": "使用登录游戏/充值等功能   kyc 检查"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/135\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **Fairfarren** November 18, 2025</sup>\n审核通过/不通过</div>",
+    "number": 139,
+    "title": "【后端接口需求】需要对用户kyc进行审核的接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/132\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** November 18, 2025</sup>\n## 接口需求\r\n- 需要一个用游戏id获取游戏信息的接口</div>",
+    "number": 137,
+    "title": "【后端接口需求】需要游戏详情接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/131\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 18, 2025</sup>\n<img width=\"400\" height=\"869\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/66d99277-836c-4451-862a-dc90c6199094\" />\r\n</div>",
+    "number": 136,
+    "title": "绑定邮箱无code码验证"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/111\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 17, 2025</sup>\n<img width=\"1818\" height=\"861\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/a3f196a6-6879-4837-9950-c802ee96c234\" />\r\n</div>",
+    "number": 123,
+    "title": "approved页面：没有预览标识"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/114\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 17, 2025</sup>\n修改昵称要等30天，之前没有说明可以修改几次\r\n<img width=\"723\" height=\"1183\" alt=\"image\" src=\"https://github.com/user-attachments/assets/dd5abdaa-96fb-42ca-8a7d-64eb00b17fa5\" />\r\n</div>",
+    "number": 122,
+    "title": "用户端：Profile修改昵称次数需求"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/118\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 17, 2025</sup>\n<img width=\"1831\" height=\"854\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/979b8976-a377-4ac1-b24d-fec88cd39605\" />\r\n比如first name 的提交格式应当强制字母或文字</div>",
+    "number": 120,
+    "title": "KYC认证的内容未限制格式"
+  },
+  {
+    "body": "收藏行为没有被记录，再次进入时，游戏是未收藏状态\n\nhttps://github.com/user-attachments/assets/4055ad61-4274-404f-9723-78ee57b17ceb",
+    "number": 116,
+    "title": "收藏页面点击收藏后，再次进入，该收藏行为没有被保留"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/113\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 17, 2025</sup>\n<img width=\"1856\" height=\"956\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/2eb2aba9-1010-4d68-a2cd-a1765afdfc64\" />\r\n</div>",
+    "number": 115,
+    "title": "未禁止超长组合字符"
+  },
+  {
+    "body": "<img width=\"1869\" height=\"1021\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bef205b5-c579-4786-a460-1e80f089852a\" />",
+    "number": 112,
+    "title": "url地址返回404"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/81\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** November 14, 2025</sup>\n# 二次填写KYC已经接口已经返回完成状态，但是[客户端获取 KYC 资料]接口获取的`status`还是`waiting_complete`，预期应该是`pending_approve`\r\n\r\n客户端检查用户 KYC 第二步验证信息是否填写完整：\r\n```\r\nPOST /v1/kyc/47cd0da4-19c4-4894-8d0c-62b10b3354f7/second_step\r\n\r\n{\"ok\":true,\"result\":{\"is_complete\":true,\"missing_fields\":[]}}\r\n```\r\n\r\n客户端获取 KYC 资料：\r\n```\r\nGET /v1/kyc/47cd0da4-19c4-4894-8d0c-62b10b3354f7/profile\r\n\r\n{\r\n    \"ok\": true,\r\n    \"result\": {\r\n        \"kyc_data\": {\r\n            \"birth_date\": {\r\n                \"modify_at\": \"2025-11-10T04:32:26.561986+00:00\",\r\n                \"value\": \"1995-10-20\"\r\n            },\r\n            \"current_address\": {\r\n                \"modify_at\": \"2025-11-13T04:03:01.422238+00:00\",\r\n                \"value\": \"1\"\r\n            },\r\n            \"date_of_birth\": {\r\n                \"modify_at\": \"2025-11-03T04:41:27.896288\",\r\n                \"value\": \"2004-10-02\"\r\n            },\r\n            \"first_name\": {\r\n                \"modify_at\": \"2025-11-03T04:41:27.896247\",\r\n                \"value\": \"ice\"\r\n            },\r\n            \"id_photo\": {\r\n                \"modify_at\": \"2025-11-10T04:32:26.561999+00:00\",\r\n                \"value\": \"https://object-storage-python-s3-dev.jp-osa-1.linodeobjects.com/kyc/47cd0da4-19c4-4894-8d0c-62b10b3354f7/identity_card.jpg\"\r\n            },\r\n            \"id_type\": {\r\n                \"modify_at\": \"2025-11-10T04:32:26.561993+00:00\",\r\n                \"value\": \"Driver's License\"\r\n            },\r\n            \"last_name\": {\r\n                \"modify_at\": \"2025-11-03T04:41:27.896284\",\r\n                \"value\": \"rain\"\r\n            },\r\n            \"middle_name\": {\r\n                \"modify_at\": \"2025-11-10T04:32:26.561960+00:00\",\r\n                \"value\": \"...\"\r\n            },\r\n            \"nationality\": {\r\n                \"modify_at\": \"2025-11-13T04:03:01.422207+00:00\",\r\n                \"value\": \"andorra\"\r\n            },\r\n            \"nature_of_work\": {\r\n                \"modify_at\": \"2025-11-13T04:03:01.422241+00:00\",\r\n                \"value\": \"software-engineer\"\r\n            },\r\n            \"permanent_address\": {\r\n                \"modify_at\": \"2025-11-13T04:03:01.422235+00:00\",\r\n                \"value\": \"1\"\r\n            },\r\n            \"place_of_birth\": {\r\n                \"modify_at\": \"2025-11-13T04:03:01.422230+00:00\",\r\n                \"value\": \"1\"\r\n            },\r\n            \"selfie_photo\": {\r\n                \"modify_at\": \"2025-11-10T04:32:26.562004+00:00\",\r\n                \"value\": \"https://object-storage-python-s3-dev.jp-osa-1.linodeobjects.com/kyc/47cd0da4-19c4-4894-8d0c-62b10b3354f7/selfie_photo.jpg\"\r\n            },\r\n            \"source_of_income\": {\r\n                \"modify_at\": \"2025-11-13T04:03:01.422244+00:00\",\r\n                \"value\": \"business-income\"\r\n            },\r\n            \"suffix\": {\r\n                \"modify_at\": \"2025-11-03T04:41:27.896286\",\r\n                \"value\": \"123\"\r\n            }\r\n        },\r\n        \"status\": \"waiting_complete\"\r\n    }\r\n}\r\n```\r\n\r\n</div>",
+    "number": 110,
+    "title": "KYC 信息全部填写完成后，还是从接口获取到了 waiting_complete 状态"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/105\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 15, 2025</sup>\n<img width=\"1855\" height=\"872\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/2e18de2a-06e0-4f3c-8080-647c8b67540b\" />\r\n将date列放在第一列</div>",
+    "number": 109,
+    "title": "game provider页面：查询结果中修改列名 字段顺序"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/7\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **kevinanew** November  4, 2025</sup>\n刚刚和Mentos讨论一下\r\n主要是说做几个不同的后端用于管理不一样的层级的用户。例如客服主管有一个专门的管理后台，一些比较敏感的信息设置。\r\n普通的客服用另外一个管理后端，处理一般事务。\r\n还有一个对外的看报表的后端，给经理或者股东查看。</div>",
+    "number": 108,
+    "title": "关于后端管理界面到底需要哪几个？"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/80\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 14, 2025</sup>\n<img width=\"763\" height=\"318\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/69ba5d60-ee84-42be-8ad8-824808939f4b\" />\r\n</div>",
+    "number": 107,
+    "title": "更新导航icon并已在图左边附上"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/92\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 14, 2025</sup>\n搜索框样式不一样：\r\n1.空搜索没反应\r\n2.搜索报错一个是弹窗，一个在页面\r\n<img width=\"3836\" height=\"1807\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4f788a56-e4ee-4e7e-8622-6f84f4008670\" />\r\n<img width=\"3813\" height=\"1898\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c6496b9e-88e9-4be6-a006-2348244fdbec\" />\r\n\r\n</div>",
+    "number": 106,
+    "title": "后台管理系统：Wallet Transaction页面组件修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/91\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 14, 2025</sup>\n搜索多选下移\r\n<img width=\"3820\" height=\"1968\" alt=\"image\" src=\"https://github.com/user-attachments/assets/59172761-cca7-488d-83bc-4bae857e51a4\" />\r\n</div>",
+    "number": 104,
+    "title": "后台管理系统：User Profile页面样式修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/102\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 15, 2025</sup>\n<img width=\"1837\" height=\"876\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/e022461c-2664-4b69-bd98-e35bbf666a4a\" />\r\n在之前的日常实操测试时，提出过可编辑提醒\r\n\r\n<img width=\"1619\" height=\"802\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/1bb6440c-8e75-45bb-9453-913a95b697ab\" />\r\n<img width=\"1658\" height=\"789\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/56843a2e-5b20-48d0-ae17-f97d4c80e963\" />\r\n能提醒可编辑或者提醒回车保存\r\n直达链接：https://ant.design/components/typography-cn</div>",
+    "number": 103,
+    "title": "Aproved页面：添加可编辑信息提醒"
+  },
+  {
+    "body": "在有的情况下跳转到一个还未加载的mf页面，会有几率加载不出来\n\n需要想一下这个“有的情况” 和 如果没加载出来的后续处理",
+    "number": 98,
+    "title": "需要考虑model federation的加载问题"
+  },
+  {
+    "body": "电脑 Mac Chrome\n\n<img width=\"907\" height=\"698\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ae4ee422-277d-400f-8b2e-f267d1da607c\" />\n\n\n\n手机  iOS  Safari \n\n![Image](https://github.com/user-attachments/assets/4f2f29b0-4cbc-4eb6-af4f-52786974ff17)",
+    "number": 95,
+    "title": "充值活动页面的金币图标在手机浏览器中显示比较模糊，参与者处的字体在手机电脑上显示的也不一样"
+  },
+  {
+    "body": "iOS系统，Safari浏览器 \n\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0c74ef2a-7225-4bfe-9cc1-88ba42171d83\" />",
+    "number": 94,
+    "title": "移动端邀请活动页面奖励规则标题和复制链接图标底色没有了"
+  },
+  {
+    "body": "iOS系统   Safari 浏览器\n\n![Image](https://github.com/user-attachments/assets/6d3b914c-8896-4699-b396-403280e043c4)\n",
+    "number": 93,
+    "title": "移动端活动充值页面选中充值后，下面的购买按钮底色不见了"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/87\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 14, 2025</sup>\n<img width=\"1908\" height=\"868\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/3edabbf1-426d-4e2a-b472-7c1c119f63c2\" />\r\n</div>",
+    "number": 89,
+    "title": "建议金额用千分位表示"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/84\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 14, 2025</sup>\n<img width=\"1905\" height=\"855\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/44a2f1e7-6d77-45ea-bf21-286b4a7791aa\" />\r\n</div>",
+    "number": 88,
+    "title": "建议限制person profile 长度为100"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/82\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 14, 2025</sup>\n<img width=\"1200\" height=\"680\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/45093fbd-f40d-43fa-9dad-6c28b188c77c\" />\r\n</div>",
+    "number": 83,
+    "title": "修改wallet页面：新增tabs组件中 每种货币对应的信息"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/42\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 11, 2025</sup>\n1.只有nickname\r\n2.kyc信息不展示，所以出生年月去掉\r\n<img width=\"717\" height=\"866\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a34e72e9-f755-4544-9346-85a96d7e3a25\" />\r\n</div>",
+    "number": 79,
+    "title": "用户端：Profile页面修改"
+  },
+  {
+    "body": "",
+    "number": 78,
+    "title": "【portal】新增使用邮箱注册"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/74\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 13, 2025</sup>\n<img width=\"395\" height=\"836\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/01704be4-8d94-499d-862d-64e9db44ff4a\" />\r\n此账号是手机号注册，在设置中成功设置密码后，退出测试 电话+密码登录失败，并返回提示错误</div>",
+    "number": 77,
+    "title": "电话+密码登录失败，并 有显示错误"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/70\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 13, 2025</sup>\n<img width=\"1875\" height=\"831\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/663262f5-20de-4fc4-8cc6-c5be3c3eddc6\" />\r\n</div>",
+    "number": 75,
+    "title": "修改kyc认证字段长度"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/66\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 12, 2025</sup>\n<img width=\"1280\" height=\"625\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6847420a-49a6-4b1e-a66f-b1b3fc9da990\" />\r\n<img width=\"1280\" height=\"564\" alt=\"image\" src=\"https://github.com/user-attachments/assets/8c7f7199-b011-4649-8f40-919a342833ae\" />\r\n</div>",
+    "number": 67,
+    "title": "原型图：用户基本信息页面和用户账号页面 两个原型图"
+  },
+  {
+    "body": "![Image](https://github.com/user-attachments/assets/fd31e8ed-514e-4c25-bbd8-45216527b2ca)",
+    "number": 65,
+    "title": "在详情页点击”share“，然后点击左上角返回按钮，仍然显示”分享“"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/56\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** November 12, 2025</sup>\nPayPal和GrabPay的图标相对于另外两个，颜色较暗，图标偏小。建议统一图标亮度以及图标大小。\r\n\r\n<img width=\"449\" height=\"351\" alt=\"截屏2025-11-12 14 05 46\" src=\"https://github.com/user-attachments/assets/dddaa2cf-f38c-4510-88e4-4d399e5cdd14\" />\r\n</div>",
+    "number": 62,
+    "title": "建议统一钱包支付方式里面的图标亮度和图标大小"
+  },
+  {
+    "body": "",
+    "number": 60,
+    "title": "portal 用户注册页面"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/55\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** November 12, 2025</sup>\n图标中是人民币货币符号，支付货币实为美元，这里不相对应，建议将图标改为能通用的金币图标\r\n\r\n<img width=\"428\" height=\"447\" alt=\"截屏2025-11-12 14 04 42\" src=\"https://github.com/user-attachments/assets/5974ba40-2af5-4cbb-90b8-aad4c69c1016\" />\r\n</div>",
+    "number": 58,
+    "title": "充值活动详情里面的金币图标应该为对应的支付货币符号或通用的金币图标"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/44\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 11, 2025</sup>\n共3点如下：\r\n\r\n1.弹窗错误,两个对立弹窗同时出现\r\n<img width=\"2244\" height=\"946\" alt=\"image\" src=\"https://github.com/user-attachments/assets/243ff4ba-f434-4510-a1d4-56f09cbb3cfb\" />\r\n\r\n2.提示错误样式不统一，和用户部分的错误提示不一样\r\n<img width=\"2689\" height=\"1046\" alt=\"image\" src=\"https://github.com/user-attachments/assets/44cb8f2d-dc61-4f0a-8b12-3f0431905c29\" />\r\n\r\n3.重复提示\r\n\r\n<img width=\"2691\" height=\"1103\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c26a98c5-fb6f-411b-99cd-09097e310f0d\" /></div>",
+    "number": 57,
+    "title": "后台管理系统：搜索错误提示的修改"
+  },
+  {
+    "body": "",
+    "number": 54,
+    "title": "【admin】如果给需要给接口传入时间，那么需要先把时间转为UTC+0时间再传"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/40\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 11, 2025</sup>\n三个页面样式不一样：\r\n<img width=\"2454\" height=\"1186\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c49d43d8-75e3-41de-8cfe-f0d57420b62e\" />\r\n<img width=\"2460\" height=\"1192\" alt=\"image\" src=\"https://github.com/user-attachments/assets/73052daa-2209-45e8-b38a-f5b5071d0162\" />\r\n<img width=\"2965\" height=\"1429\" alt=\"image\" src=\"https://github.com/user-attachments/assets/12c5b290-72d8-486c-b216-3f1defe1ef17\" />\r\n</div>",
+    "number": 53,
+    "title": "后台管理系统：User内页面样式不一致修改，标题也需要统一"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/34\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** November 10, 2025</sup>\n此页面的功能名称有主、副两个标题；退出登录的字体与上方密码、关于我们等功能的主标题字体大小不一致，反而与副标题字体大小一样。建议功能主标题字体大小保持一致\r\n\r\n<img width=\"1170\" height=\"2532\" alt=\"IMG_8200\" src=\"https://github.com/user-attachments/assets/cd4b6584-73d7-4010-a2ca-9d04cc43fbe6\" />\r\n</div>",
+    "number": 52,
+    "title": "建议退出登录的字体与上面的主标题字体保持一致"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/39\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 10, 2025</sup>\n<img width=\"1352\" height=\"746\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/a4224f77-dd61-4e88-a371-da7708166e99\" />\r\n注：选择date日期后，默认选择“1h”并查询出信息。 看看tabs组件是否能一次性排版出“24个小时“，就可以删除分页组件。请小伙伴们看看有什么问题</div>",
+    "number": 50,
+    "title": "Game Provider原型图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/43\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 11, 2025</sup>\n1.没有完成kyc认证，应该不能购买游戏币\r\n2.建议弹窗提示，跳转实名认证页面\r\n<img width=\"714\" height=\"995\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5c8bbf81-f34e-4394-b9e9-b483daa93c10\" />\r\n<img width=\"724\" height=\"1213\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3444437f-56e1-404b-9791-4a02573a9558\" />\r\n\r\n</div>",
+    "number": 49,
+    "title": "用户端：钱包页面与kyc实名逻辑冲突"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/47\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November 11, 2025</sup>\n<img width=\"492\" height=\"618\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/98d1f240-a9a5-45cd-a979-c48b74e75c95\" />\r\n下面我找了其他的并附上icon了\r\n<img width=\"569\" height=\"546\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/4dff26ac-72f3-47a1-8122-10710468ce53\" />\r\n</div>",
+    "number": 48,
+    "title": "后台管理icon重复"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/41\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 11, 2025</sup>\n1.点击刷新没反应\r\n2.列表是否需要加 分页\r\n<img width=\"3458\" height=\"1172\" alt=\"image\" src=\"https://github.com/user-attachments/assets/cc09163a-3d29-4aaf-9de9-0ea1853d1b52\" />\r\n</div>",
+    "number": 46,
+    "title": "后台管理系统：KYC Recent页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/24\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **AnneAnneAnne** November  9, 2025</sup>\n充值金币选项的边框颜色较浅，与未选金额状态下的禁用按钮色彩相近，在用户进入该页面时，会有种该页面无法使用的错觉。建议优化充值选项，提高用户充值体验\r\n<img width=\"1170\" height=\"2532\" alt=\"IMG_8198\" src=\"https://github.com/user-attachments/assets/0357775b-8f46-4d38-ae27-9a0d4c63947d\" />\r\n</div>",
+    "number": 38,
+    "title": "建议提高钱包页面充值金币选项的辨识度"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/36\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **zxt841614467-maker** November 10, 2025</sup>\n<img width=\"1170\" height=\"2532\" alt=\"32981762763324_ pic_hd\" src=\"https://github.com/user-attachments/assets/bd01075e-5b8f-4357-9d86-e2211856b982\" />\r\n<img width=\"1170\" height=\"2532\" alt=\"32991762763325_ pic_hd\" src=\"https://github.com/user-attachments/assets/05b48aeb-f65c-4cfe-990b-49412ec7d340\" />\r\n弹窗页面  标题下面没有横线  间距也有一点差别   \r\n<img width=\"674\" height=\"416\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c2ad7a94-2cea-427e-9cc9-4836903ed294\" />\r\n内容一个模块  下面的按钮一个模块  间距调整一下</div>",
+    "number": 37,
+    "title": "弹窗样式修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/29\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **TinaLyth** November 10, 2025</sup>\n1.现在已接入3个游戏供应商，需要写三个供应商的页面（名字，内容未定）\r\n2.页面的主要内容大致是记录供应商的流水记录，先知道就行，具体实现可等原型图\r\n3.可参考结构如下：\r\n<img width=\"200\" height=\"142\" alt=\"image\" src=\"https://github.com/user-attachments/assets/43221bb6-9711-4719-8d90-f931f3dae68f\" />\r\n</div>",
+    "number": 32,
+    "title": "后台管理系统：加一个游戏供应商模块"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/17\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November  8, 2025</sup>\n<img width=\"1300\" height=\"741\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/505e4eb3-4496-41bf-975d-b8ec326f5282\" />\r\n“diamonds”和“coins”是tabs组件</div>",
+    "number": 31,
+    "title": "钱包原型图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/4\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November  4, 2025</sup>\n修改字段“上架”“下架”，新增字段“启用”，“暂用”</div>",
+    "number": 30,
+    "title": "把游戏拆开成“已审核”和“待审批状态”"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/21\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **3376849488** November  8, 2025</sup>\n1. 二级标题和页面标题不一致\r\n2. 不用判断密码状态，可以显示几位数符号 ，例如********\r\n\r\n<img width=\"3781\" height=\"1575\" alt=\"image\" src=\"https://github.com/user-attachments/assets/51114a05-bbb4-4fb4-82a1-57176aca363d\" />\r\n\r\n</div>",
+    "number": 28,
+    "title": "后台管理：User Profile页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/22\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **3376849488** November  8, 2025</sup>\n1.User Login Records页面跟User Profile页面对比，少了一块\r\n\r\n<img width=\"2767\" height=\"1438\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9f8a1aaf-97fd-40f6-b48d-877e0c569303\" />\r\n<img width=\"2843\" height=\"1314\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a52d1b59-e714-462a-aaae-3d6b184c77a7\" />\r\n\r\n</div>",
+    "number": 27,
+    "title": "后台管理系统：User Login Records页面修改"
+  },
+  {
+    "body": "充值金币选项的边框颜色较浅，与未选金额状态下的禁用按钮色彩相近，在用户进入该页面时，会有种该页面无法使用的错觉。建议优化充值选项，提高用户充值体验\n\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/35a12a55-a240-451d-b93a-3475a5c8818a\" />",
+    "number": 23,
+    "title": "建议提高钱包页面充值金币选项的辨识度"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/18\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **3376849488** November  8, 2025</sup>\n1. Login Time时间排序去掉，因为后端没有实现\r\n2. Device ID信息展开\r\n\r\n<img width=\"3832\" height=\"1484\" alt=\"image\" src=\"https://github.com/user-attachments/assets/813f896c-a6c6-49d6-a977-04177d238375\" />\r\n</div>",
+    "number": 20,
+    "title": "后台管理系统：User Login Records页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/18\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **3376849488** November  8, 2025</sup>\n1. Login Time时间排序去掉，因为后端没有实现\r\n2. Device ID信息展开\r\n\r\n<img width=\"3832\" height=\"1484\" alt=\"image\" src=\"https://github.com/user-attachments/assets/813f896c-a6c6-49d6-a977-04177d238375\" />\r\n</div>",
+    "number": 19,
+    "title": "后台管理系统：User Login Records页面修改"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/15\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **januwA** November  8, 2025</sup>\n## 为什么需要这个PACTH接口\r\n\r\n在后台单元格编辑表单中，使用PACTH接口可以更加有好的更新数据\r\n\r\n<img width=\"2068\" height=\"1004\" alt=\"image\" src=\"https://github.com/user-attachments/assets/f1ebb341-d8a3-4c59-b709-945be8e1ee41\" />\r\n\r\n\r\n## 我需要的接口PACTH接口\r\n\r\n将一个 `PUT` 接口改进为 `PATCH` 接口，核心思想是 **“部分更新”**，即允许客户端只更新资源中的一部分字段，而不是整个资源。如果你希望进行**部分更新**，并且不希望强制要求客户端提供所有字段，那么使用 `PATCH` 是更合适的。\r\n\r\n---\r\n\r\n## 🔄 PUT vs PATCH 概念对比\r\n\r\n| 特性 | PUT | PATCH |\r\n|------|------|------|\r\n| **作用** | 替换整个资源 | 更新资源的部分字段 |\r\n| **请求体** | 需要提供完整的资源数据 | 只需要提供需要更新的字段 |\r\n| **语义** | 客户端发送完整的资源体 | 客户端发送资源的部分更新 |\r\n| **适用场景** | 当你需要完全替换资源 | 当你只需要更新资源部分属性时 |\r\n| **灵活性** | 较低（强制要求所有字段） | 较高（允许部分字段更新） |\r\n\r\n---\r\n\r\n## ✅ 具体改进说明（从 PUT 改为 PATCH）\r\n\r\n### 📌 现有 PUT 接口\r\n原 PUT 接口要求客户端发送 **完整的游戏信息**，尽管有些字段可能是可选的（如 `category` 可能不是必需的），但 `PUT` 语义要求 **替换整个资源**，可能会造成不必要的数据丢失或浪费。\r\n\r\n---\r\n\r\n### 📌 改进为 PATCH 接口\r\n\r\n#### 🔹 接口路径不变：\r\n```\r\n/admin/game_info/games/<game_id>\r\n```\r\n\r\n#### 🔹 HTTP 方法改为 `PATCH`：\r\n```http\r\nPATCH /admin/game_info/games/<game_id>\r\n```\r\n\r\n#### 🔹 请求体（Body）调整：\r\n- 只发送需要更新的字段，不需要发送所有字段。\r\n- 建议使用 JSON 格式，只包含变更的字段：\r\n\r\n```json\r\n{\r\n  \"name\": \"新游戏名\",\r\n  \"icon\": \"https://new.example.com/new_icon.png\",\r\n  \"description\": \"新描述\"\r\n}\r\n```\r\n\r\n> 💡 当字段不被提供时，表示我们不想更改该字段的值。\r\n\r\n#### 🔹 响应结构不变：\r\n```json\r\n{\r\n  \"ok\": true,\r\n  \"result\": {\r\n    \"category\": null,\r\n    \"created_at\": null,\r\n    \"description\": \"新描述\",\r\n    \"game_code\": null,\r\n    \"hub_game_id\": \"hub_game1\",\r\n    \"icon\": \"https://new.example.com/new_icon.png\",\r\n    \"id\": \"game1\",\r\n    \"is_provider_deleted\": false,\r\n    \"name\": \"新游戏名\",\r\n    \"platform_name\": \"platform1\"\r\n  }\r\n}\r\n```\r\n\r\n> 注意：在 PATCH 接口中，即使客户端没有提供某字段，服务器也会保留原值，不会清空。\r\n\r\n---\r\n\r\n## 📖 改进后接口文档说明\r\n\r\n### 📌 接口描述\r\n\r\n> 管理员可以通过 PATCH 请求来更新指定 ID 的游戏信息，仅更新提供的字段。不对未提供的字段做任何修改。\r\n\r\n---\r\n\r\n### 📌 接口路径\r\n\r\n```\r\nPATCH /admin/game_info/games/<game_id>\r\n```\r\n\r\n> `<game_id>` 是要更新的游戏的唯一标识符，客户端需在路径中提供。\r\n\r\n---\r\n\r\n### 📌 请求体 (Body)\r\n\r\n| 字段 | 类型 | 是否可选 | 描述 |\r\n|------|------|----------|------|\r\n| `name` | string | ✅ 可选 | 新的游戏名称 |\r\n| `icon` | string | ✅ 可选 | 游戏图标的 URL |\r\n| `description` | string | ✅ 可选 | 游戏的简要描述 |\r\n| `category` | string | ✅ 可选 | 游戏所属分类 |\r\n\r\n> 💡 如果某个字段没有出现，表示不会更改该字段的值。\r\n\r\n---\r\n\r\n### 📌 成功响应\r\n\r\n```json\r\n{\r\n  \"ok\": true,\r\n  \"result\": {\r\n    \"category\": \"action\",\r\n    \"created_at\": \"2025-04-10T00:00:00Z\",\r\n    \"description\": \"新描述\",\r\n    \"game_code\": \"g123456\",\r\n    \"hub_game_id\": \"hub_game1\",\r\n    \"icon\": \"https://new.example.com/new_icon.png\",\r\n    \"id\": \"game1\",\r\n    \"is_provider_deleted\": false,\r\n    \"name\": \"新游戏名\",\r\n    \"platform_name\": \"platform1\"\r\n  }\r\n}\r\n```\r\n\r\n---\r\n\r\n### 📌 响应示例（仅部分字段更新）\r\n\r\n如果客户端只更新了 `name`：\r\n\r\n**请求体：**\r\n```json\r\n{\r\n  \"name\": \"新版游戏\"\r\n}\r\n```\r\n\r\n**响应体：**\r\n```json\r\n{\r\n  \"ok\": true,\r\n  \"result\": {\r\n    \"name\": \"新版游戏\",\r\n    \"icon\": \"https://example.com/game1.png\",\r\n    \"description\": \"原来的描述\",\r\n    \"category\": \"sports\",\r\n    \"created_at\": \"2025-04-10T00:00:00Z\",\r\n    \"game_code\": \"g123456\",\r\n    \"hub_game_id\": \"hub_game1\",\r\n    \"id\": \"game1\",\r\n    \"is_provider_deleted\": false,\r\n    \"platform_name\": \"platform1\"\r\n  }\r\n}\r\n```\r\n\r\n---\r\n\r\n### 📌 400 错误响应（当请求体格式错误）\r\n\r\n```json\r\n{\r\n  \"ok\": false,\r\n  \"error\": \"invalid JSON format\"\r\n}\r\n```\r\n\r\n---\r\n\r\n### 📌 404 错误响应（当游戏不存在）\r\n\r\n```json\r\n{\r\n  \"ok\": false,\r\n  \"error\": \"game not found\"\r\n}\r\n```\r\n\r\n---\r\n\r\n### 📌 400 错误响应（当某个字段类型不符）\r\n\r\n```json\r\n{\r\n  \"ok\": false,\r\n  \"error\": \"invalid field type\"\r\n}\r\n```\r\n\r\n---\r\n\r\n## 📌 改进后的注意事项\r\n\r\n1. **客户端必须知道哪些字段可能被更新**。所以建议配合文档说明哪些字段可以修改。\r\n2. **服务器端应检查字段是否存在，是否允许更新**。\r\n3. **缓存需要注意**，PATCH 语义意味着不返回完整的资源，可以不执行缓存刷新（如果按需更新）。\r\n4. **事务性：** 同样需要保证对资源的更新是原子性的，避免部分修改意外导致数据不一致。\r\n\r\n---\r\n\r\n## 📌 接口改进总结\r\n\r\n| 现有接口 | 改进为 |\r\n|----------|--------|\r\n| `PUT` | `PATCH` |\r\n| 必须提供全部字段 | 只需提供需要更新的字段 |\r\n| 替换整个资源 | 部分字段更新 |\r\n| 不友好（不灵活） | 更友好（更灵活） |</div>",
+    "number": 16,
+    "title": "[game_info_flask_staging] “管理员更新游戏信息”提供PACTH接口"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/11\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **jjjjjjjjp** November  6, 2025</sup>\nKYC管理为一级目录，功能在二级目录。\r\n<img width=\"1226\" height=\"736\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/424af3fc-d24e-49f5-8623-b3ed2d9f1327\" />\r\n<img width=\"1092\" height=\"811\" alt=\"图片\" src=\"https://github.com/user-attachments/assets/b8089673-c376-45cf-96d3-f8db505d0d72\" />\r\n请小伙伴们看看有哪些问题</div>",
+    "number": 14,
+    "title": "KYC原型图"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/2\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **kevinanew** November  4, 2025</sup>\n![telegram-cloud-photo-size-5-6075903952789637965-m](https://github.com/user-attachments/assets/cd861f7a-7e26-4d3a-b4a1-6c5774e95065)\r\n\r\n我觉得admin的菜单需要用二级菜单，这样分类更好用一些\r\n\r\n例如用这个控件：\r\n![telegram-cloud-photo-size-5-6075903952789637966-y](https://github.com/user-attachments/assets/d9d1ebb7-3289-45b1-98f8-828961f9f843)\r\n\r\n\r\n控件主页：\r\nhttps://ant.design/components/menu-cn</div>",
+    "number": 13,
+    "title": "admin的菜单改进"
+  },
+  {
+    "body": "\n### Discussed in https://github.com/kevinanew/game_portal/discussions/6\n\n<div type='discussions-op-text'>\n\n<sup>Originally posted by **kevinanew** November  4, 2025</sup>\nhttps://ant.design/components/watermark-cn\r\n\r\n这个东西我感觉还挺好的，原因是我以前在用斗鱼的后台的时候，他们就有，在那个页面截图的，截图的时间是几点几分，登录者的名字 等信息都会加入水印里面，方便看截图发现问题</div>",
+    "number": 10,
+    "title": "admin给页面都加上 watermark"
+  },
+  {
+    "body": "收藏功能具有两个状态，一个是收藏、一个是未收藏；而分享是选择后进入弹窗，这两个功能属性不一样，应该放置在不同位置。\n\n另外再建议未收藏状态选用线条icon，这样与面形收藏状态图标更易区别。\n\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e04040ff-03d8-4130-ae61-2c17a067dce2\" />\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8934e499-3dba-4182-ba2f-8bdf6bb1d136\" />",
+    "number": 9,
+    "title": "建议将收藏和分享分开放置"
+  },
+  {
+    "body": "浏览器显示有限，建议将搜索放置在头像栏，留出更多位置展示游戏内容。\n\n搜索图标可放置在钱包前面或者取消钱包位置（因为下面tab栏已经有钱包图标并且在登录状态下通过点击金币可以前往钱包页面）\n\n<img width=\"1170\" height=\"2532\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/50b966d0-3734-4363-ab5a-dafc0372fdc0\" />",
+    "number": 8,
+    "title": "建议将搜索放置在顶部头像客服栏"
+  },
+  {
+    "body": "https://www.livechat.com/\n\n<img width=\"95\" height=\"84\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c1a789fd-ed9c-4e8d-a910-7db3e53de10d\" />\n\n\n对接\n\n<img width=\"2171\" height=\"1452\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/fab84ccb-691c-4a71-938e-3e87fc09de00\" />\n\n",
+    "number": 1,
+    "title": "将客服系统和LiveChat系统对接"
+  }
+]
