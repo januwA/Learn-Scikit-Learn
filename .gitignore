@@ -12,3 +12,4 @@ wheels/
 *.pkl
 classify/data/cats/*
 classify/data/dogs/*
+clustering_issues/*.json

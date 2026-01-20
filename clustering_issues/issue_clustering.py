@@ -59,30 +59,37 @@ def cluster_issues(n_clusters=5):
     
     labels = kmeans.labels_
 
-    # 5. 整理并显示结果
+    # 5. 整理结果为 JSON 格式
     clusters = {i: [] for i in range(n_clusters)}
     for idx, label in enumerate(labels):
         clusters[label].append(issues[idx])
 
-    print("\n" + "="*50)
-    print("聚类结果摘要:")
-    print("="*50)
-
-    # 获取每个簇的关键词（中心点附近权重最高的词）
     order_centroids = kmeans.cluster_centers_.argsort()[:, ::-1]
     terms = vectorizer.get_feature_names_out()
 
+    result_json = []
+
     for i in range(n_clusters):
-        print(f"\n[簇 ID: {i}] (包含 {len(clusters[i])} 条 Issue)")
-        
-        # 显示该簇的前 5 个关键词
-        top_keywords = [terms[ind] for ind in order_centroids[i, :8] if terms[ind].strip()]
-        print(f"关键词暗示: {' / '.join(top_keywords)}")
-        
-        # 显示该簇的前 3 条 Issue 标题作为示例
-        print("示例 Issue:")
-        for issue in clusters[i][:3]:
-            print(f"  #{issue['number']}: {issue['title']}")
+        cluster_data = {
+            "cluster_id": i,
+            "count": len(clusters[i]),
+            "keywords": [terms[ind] for ind in order_centroids[i, :8] if terms[ind].strip()],
+            "issues": [
+                {
+                    "number": issue.get("number"),
+                    "title": issue.get("title")
+                } for issue in clusters[i]
+            ]
+        }
+        result_json.append(cluster_data)
+
+    # 6. 保存结果到 JSON 文件
+    output_file = os.path.join(BASE_DIR, "clustering_results.json")
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(result_json, f, ensure_ascii=False, indent=2)
+
+    print(f"\n聚类完成！结果已保存至: {output_file}")
+    return result_json
 
 if __name__ == "__main__":
-    cluster_issues(n_clusters=6) # 默认尝试分为 6 类
+    cluster_issues(n_clusters=6)
