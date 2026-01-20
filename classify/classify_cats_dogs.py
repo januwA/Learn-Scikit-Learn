@@ -87,7 +87,7 @@ def train():
     # 初始化支持向量机 (SVM) 分类器
     # C 是正则化参数，gamma 是核函数系数
     print("正在开始训练 SVM 模型...")
-    clf = SVC(kernel='linear', C=1.0) # 使用线性核作为起点
+    clf = SVC(kernel='linear', C=1.0, probability=True) # 启用概率估算以获取置信度
     clf.fit(X_train, y_train)
     
     # 预测并评估
@@ -122,10 +122,13 @@ def predict(image_path):
     img = cv2.resize(img, (IMG_SIZE, IMG_SIZE))
     img_flat = img.flatten().reshape(1, -1) / 255.0
     
-    prediction = clf.predict(img_flat)
-    label = le.inverse_transform(prediction)[0]
+    # 获取预测概率
+    probabilities = clf.predict_proba(img_flat)[0]
+    print(f"预测概率: {probabilities}")
+    prediction_index = np.argmax(probabilities)
+    label = le.inverse_transform([prediction_index])[0]
     
-    print(f"预测结果: 这是一只 {label}")
+    print(f"预测结果: 这是一只 {label} (置信度: {probabilities[prediction_index]:.2%})")
 
 if __name__ == "__main__":
     # 如果你想训练，请取消下面注释并确保有数据
