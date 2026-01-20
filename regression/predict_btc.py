@@ -23,20 +23,32 @@ def train_and_predict():
     df = pd.DataFrame(raw_data)
     print(f"成功加载数据，共 {len(df)} 行")
 
-    # 2. 特征工程 (优化版)
-    # 我们不仅看过去的价格，还看过去的成交量
+    # 2. 特征工程 (指标增强版)
+    # 我们加入 RSI (相对强弱指标) 和 MA (移动平均线)
+    
+    # 计算 14 小时移动平均线 (SMA_14)
+    df['ma_14'] = df['close'].rolling(window=14).mean()
+    
+    # 计算 RSI (相对强弱指标, 14周期)
+    delta = df['close'].diff()
+    gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
+    loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
+    rs = gain / loss
+    df['rsi_14'] = 100 - (100 / (1 + rs))
+
+    # 保留传统的滞后特征
     lags = 5
-    features = []
+    features = ['ma_14', 'rsi_14'] # 加入新特征
     
     for i in range(1, lags + 1):
         df[f'price_lag_{i}'] = df['close'].shift(i)
         df[f'vol_lag_{i}'] = df['volume'].shift(i)
         features.extend([f'price_lag_{i}', f'vol_lag_{i}'])
     
-    # 剔除空值
+    # 剔除因为计算指标产生的前面几行空值
     df = df.dropna()
 
-    # 特征字段：过去5小时的价格和成交量
+    # 特征字段：指标 + 过去5小时量价
     X = df[features]
     # 目标字段：当前的收盘价
     y = df['close']
