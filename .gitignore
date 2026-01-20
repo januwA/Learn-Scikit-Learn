@@ -13,4 +13,6 @@ wheels/
 classify/data/cats/*
 classify/data/dogs/*
 clustering_issues/*.json
+dimensionality_reduction/*.json
 regression/*.json
+*.png
