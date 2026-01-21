@@ -1,10 +1,11 @@
 import os
 import cv2
 import numpy as np
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.preprocessing import LabelEncoder
+from sklearn.decomposition import PCA
 import joblib
 
 # 图像大小，统一缩放到 64x64
@@ -14,6 +15,7 @@ IMG_SIZE = 64
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, 'cat_dog_model.pkl')
 LABEL_ENCODER_PATH = os.path.join(BASE_DIR, 'label_encoder.pkl')
+PCA_PATH = os.path.join(BASE_DIR, 'pca_model.pkl')
 DEFAULT_DATA_PATH = os.path.join(BASE_DIR, 'data')
 
 def load_data(data_dir):
@@ -84,23 +86,40 @@ def train():
     
     print(f"训练集规模: {X_train.shape[0]}, 测试集规模: {X_test.shape[0]}")
     
-    # 初始化支持向量机 (SVM) 分类器
-    # C 是正则化参数，gamma 是核函数系数
-    print("正在开始训练 SVM 模型...")
-    clf = SVC(kernel='linear', C=1.0, probability=True) # 启用概率估算以获取置信度
-    clf.fit(X_train, y_train)
+    # PCA 降维：保留 90% 的方差信息，减少噪音和维度
+    print("正在进行 PCA 降维...")
+    pca = PCA(n_components=0.9, svd_solver='full', random_state=42)
+    X_train_pca = pca.fit_transform(X_train)
+    X_test_pca = pca.transform(X_test)
+    print(f"原始维度: {X_train.shape[1]}, 降维后维度: {X_train_pca.shape[1]}")
+
+    # 使用 GridSearchCV 进行自动调参
+    print("正在搜索最优模型参数 (Grid Search)...")
+    param_grid = {
+        'C': [0.1, 1, 10, 100], 
+        'gamma': [0.001, 0.01, 0.1, 1],
+        'kernel': ['rbf', 'poly', 'linear']
+    }
+    
+    # cv=3 表示 3 折交叉验证
+    grid = GridSearchCV(SVC(probability=True), param_grid, cv=3, verbose=1)
+    grid.fit(X_train_pca, y_train)
+    
+    print(f"搜索完成！最佳参数: {grid.best_params_}")
+    clf = grid.best_estimator_
     
     # 预测并评估
-    y_pred = clf.predict(X_test)
+    y_pred = clf.predict(X_test_pca)
     print("\n模型评估:")
     print(f"准确率: {accuracy_score(y_test, y_pred):.2f}")
     print("\n详细报告:")
     print(classification_report(y_test, y_pred, target_names=le.classes_))
     
-    # 保存模型和标签编码器
+    # 保存模型、标签编码器和 PCA 模型
     joblib.dump(clf, MODEL_PATH)
     joblib.dump(le, LABEL_ENCODER_PATH)
-    print(f"\n模型已保存为 '{MODEL_PATH}'")
+    joblib.dump(pca, PCA_PATH)
+    print(f"\n模型、PCA 和编码器已保存。")
 
 def predict(image_path):
     """
@@ -112,6 +131,7 @@ def predict(image_path):
         
     clf = joblib.load(MODEL_PATH)
     le = joblib.load(LABEL_ENCODER_PATH)
+    pca = joblib.load(PCA_PATH)
     
     # 处理单张图片
     img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
@@ -122,8 +142,11 @@ def predict(image_path):
     img = cv2.resize(img, (IMG_SIZE, IMG_SIZE))
     img_flat = img.flatten().reshape(1, -1) / 255.0
     
+    # 使用相同的 PCA 模型进行转换
+    img_pca = pca.transform(img_flat)
+    
     # 获取预测概率
-    probabilities = clf.predict_proba(img_flat)[0]
+    probabilities = clf.predict_proba(img_pca)[0]
     print(f"预测概率: {probabilities}")
     prediction_index = np.argmax(probabilities)
     label = le.inverse_transform([prediction_index])[0]
@@ -132,7 +155,7 @@ def predict(image_path):
 
 if __name__ == "__main__":
     # 如果你想训练，请取消下面注释并确保有数据
-    # train()
+    train()
     
     # 如果你想预测单张图片，请使用 predict 函数
     # predict('test_image.jpg')

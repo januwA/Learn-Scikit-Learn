@@ -42,4 +42,4 @@ def download_dog_images(count=1):
 
 if __name__ == "__main__":
     # 默认下载 1 张，可以修改这里的数字下载更多
-    download_dog_images(30)
+    download_dog_images(50)

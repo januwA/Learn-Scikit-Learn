@@ -48,4 +48,5 @@ def download_cat_images(limit=30):
         print(f"程序运行出错: {e}")
 
 if __name__ == "__main__":
-    download_cat_images(30)
+    # 没有key, api 实际好像只能返回10条数据
+    download_cat_images(50)
