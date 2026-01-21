@@ -61,8 +61,24 @@
 
 ## 项目目录
 
-- [`/classify`](./classify/README.md): 猫狗图像分类器实践（SVM 实现）。
+- [`/classify`](./classify/README.md): 猫狗图像分类器实践。从原始像素识别进化到 **PCA 降维 + GridSearchCV 自动调参** 的标准化流程。
+- [`/clustering_issues`](./clustering_issues/README.md): GitHub Issues 自动聚类。实践了 **深度文本清洗 (Preprocessing)** 与 **向量归一化** 在 NLP 任务中的重要性。
+- [`/regression`](./regression/README.md): 时间序列预测实践（BTC 价格预测）。
+- [`/dimensionality_reduction`](./dimensionality_reduction/README.md): 高维数据可视化技术 (PCA/t-SNE)。
 
 ---
 
-> **复习感悟**：sklearn 是通往 AI 大门的通识课。掌握了它的逻辑，就掌握了所有机器学习算法的“驾驶证”。下一步当遇到图像识别的瓶颈时，就是进入深度学习阶段的最好时机。
+## 项目结课总结
+
+通过本项目，我们完整跑通了 Scikit-Learn 的**工业级开发链路**：
+
+1.  **数据整容术 (Preprocessing)**：掌握了 `Normalizer`、`LabelEncoder` 及正则文本清洗，理解了“数据质量决定模型上限”。
+2.  **维度降妖术 (Decomposition)**：利用 `PCA` 成功将 4096 维图像特征压缩至约 70 维，在丢失极少信息的前提下大幅提升了模型表现。
+3.  **自动选拔赛 (Model Selection)**：通过 `GridSearchCV` 实现了超参数的自动化搜索，放弃了低效的手动调参。
+4.  **模型持久化**：使用 `joblib` 实现了模型、降维器、编码器的完整离线保存与加载流程。
+
+> **复习感悟**：Scikit-Learn 不仅仅是一个工具库，它代表了一套严谨的科学评估体系。掌握了它的预处理逻辑和评估方法，就拥有了通往 AI 世界的底座。
+
+---
+
+> 🎉 **当前进度**：Scikit-Learn 阶段已圆满结课！下一步：**深度学习 (AI 界的 React/Vue)**。
